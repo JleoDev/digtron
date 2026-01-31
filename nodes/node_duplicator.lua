@@ -16,7 +16,7 @@ local inventory_formspec_string =
 	"listring[current_player;main]" ..
 	default.get_hotbar_bg(0,5.15)..
 	"button_exit[8,3.5;1,1;duplicate;"..S("Duplicate").."]" ..
-	"tooltip[duplicate;" .. S("Puts a copy of the adjacent Digtron into an empty crate@nlocated at the output side of the duplicator,@nusing components from the duplicator's inventory.") .. "]"
+	"tooltip[duplicate;" .. S("Puts a copy of the adjacent Digtron into an empty crate\nlocated at the output side of the duplicator,\nusing components from the duplicator's inventory.") .. "]"
 
 if minetest.get_modpath("doc") then
 	inventory_formspec_string = inventory_formspec_string ..
@@ -206,7 +206,7 @@ minetest.register_node("digtron:duplicator", {
 			target_meta:set_string("title", titlestring)
 			if target_name == "digtron:loaded_locked_crate" then
 				target_meta:set_string("owner", player_name)
-				target_meta:set_string("infotext", titlestring .. "\n" .. S("Owned by @1", player_name))
+				target_meta:set_string("infotext", titlestring .. S("\nOwned by @1", player_name))
 			else
 				target_meta:set_string("infotext", titlestring)
 			end

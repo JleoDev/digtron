@@ -28,14 +28,14 @@ local store_digtron = function(pos, clicker, loaded_node_name, protected)
 	local protection_prefix = ""
 	local protection_suffix = ""
 	if protected then
-		protection_prefix = S("Digtron Crate") .. "\n" .. S("Owned by @1", clicker:get_player_name() or "")
+		protection_prefix = S("Digtron Crate\nOwned by @1", clicker:get_player_name() or "")
 		protection_suffix = S("Owned by @1", clicker:get_player_name() or "")
 	end
 
 	if layout.contains_protected_node then
 		local meta = minetest.get_meta(pos)
 		minetest.sound_play("buzzer", {gain=0.5, pos=pos})
-		meta:set_string("infotext", protection_prefix .. "\n" .. S("Digtron can't be packaged, it contains protected blocks"))
+		meta:set_string("infotext", S("@1\nDigtron can't be packaged, it contains protected blocks", protection_prefix))
 		-- no stealing other peoples' digtrons
 		return
 	end
@@ -43,7 +43,7 @@ local store_digtron = function(pos, clicker, loaded_node_name, protected)
 	if #layout.all == 1 then
 		local meta = minetest.get_meta(pos)
 		minetest.sound_play("buzzer", {gain=0.5, pos=pos})
-		meta:set_string("infotext", protection_prefix .. "\n" .. S("No Digtron components adjacent to package"))
+		meta:set_string("infotext", S("@1\nNo Digtron components adjacent to package", protection_prefix))
 		return
 	end
 
@@ -145,7 +145,7 @@ minetest.register_node("digtron:empty_locked_crate", {
 	after_place_node = function(pos, placer)
 		local meta = minetest.get_meta(pos)
 		meta:set_string("owner", placer:get_player_name() or "")
-		meta:set_string("infotext", S("Digtron Crate") .. "\n" .. S("Owned by @1", placer:get_player_name() or ""))
+		meta:set_string("infotext", S("Digtron Crate\nOwned by @1", placer:get_player_name() or ""))
 	end,
 	can_dig = function(pos,player)
 		return player and not minetest.is_protected(pos, player:get_player_name()) and player_permitted(pos, player)
@@ -166,9 +166,9 @@ if modpath_doc then
 	default.gui_bg_img ..
 	default.gui_slots ..
 	"field[0.3,0.5;4,0.5;title;" .. S("Digtron Name") .. ";${title}]" ..
-	"button_exit[0.0,1.2;1,0.1;save;" .. S("Save@nTitle") .. "]" ..
+	"button_exit[0.0,1.2;1,0.1;save;" .. S("Save\nTitle") .. "]" ..
 	"tooltip[save;" .. S("Saves the title of this Digtron") .. "]" ..
-	"button_exit[1.0,1.2;1,0.1;show;" .. S("Show@nBlocks") .. "]" ..
+	"button_exit[1.0,1.2;1,0.1;show;" .. S("Show\nBlocks") .. "]" ..
 	"tooltip[show;" .. S("Shows which blocks the packed Digtron will occupy if unpacked") .. "]" ..
 	"button_exit[2.0,1.2;1,0.1;unpack;" .. S("Unpack") .. "]" ..
 	"tooltip[unpack;" .. S("Attempts to unpack the Digtron on this location") .. "]" ..
@@ -203,7 +203,7 @@ local loaded_on_recieve = function(pos, fields, sender, protected)
 	local infotext
 
 	if protected then
-		infotext = title .. "\n" .. S("Owned by @1", sender:get_player_name())
+		infotext = S("@1\nOwned by @2", title, sender:get_player_name())
 	else
 		infotext = title
 	end
@@ -221,7 +221,7 @@ local loaded_on_recieve = function(pos, fields, sender, protected)
 	local layout = digtron.DigtronLayout.deserialize(layout_string)
 
 	if layout == nil then
-		meta:set_string("infotext", infotext .. "\n" .. S("Unable to read layout from crate metadata, regrettably this Digtron may be corrupted."))
+		meta:set_string("infotext", S("@1\nUnable to read layout from crate metadata, regrettably this Digtron may be corrupted.", infotext))
 		minetest.sound_play("buzzer", {gain=0.5, pos=pos})
 		-- Something went horribly wrong
 		return
@@ -252,13 +252,13 @@ local loaded_on_recieve = function(pos, fields, sender, protected)
 	end
 
 	if protected_node then
-		meta:set_string("infotext", infotext .. "\n" .. S("Unable to deploy Digtron due to protected blocks in target area"))
+		meta:set_string("infotext", S("@1\nUnable to deploy Digtron due to protected blocks in target area", infotext))
 		minetest.sound_play("buzzer", {gain=0.5, pos=pos})
 		return
 	end
 
 	if obstructed_node then
-		meta:set_string("infotext", infotext .. "\n" .. S("Unable to deploy Digtron due to obstruction in target area"))
+		meta:set_string("infotext", S("@1\nUnable to deploy Digtron due to obstruction in target area", infotext))
 		minetest.sound_play("buzzer", {gain=0.5, pos=pos})
 		return
 	end
@@ -381,7 +381,7 @@ minetest.register_node("digtron:loaded_locked_crate", {
 		local meta = minetest.get_meta(pos)
 		meta:set_string("owner", placer:get_player_name() or "")
 		loaded_after_place(pos, itemstack)
-		meta:set_string("infotext", meta:get_string("infotext") .. "\n" .. S("Owned by @1", meta:get_string("owner")))
+		meta:set_string("infotext", S("@1\nOwned by @2", meta:get_string("infotext"), meta:get_string("owner")))
 	end,
 
 	on_rightclick = function(pos, _, clicker)

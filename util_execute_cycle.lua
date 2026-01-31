@@ -49,7 +49,7 @@ local function neighbour_test(layout, status_text, dir)
 	if layout.ignore_touching == true then
 		-- if the digtron array touches unloaded nodes, too dangerous to do anything in that situation. Abort.
 		minetest.sound_play("buzzer", {gain=0.25, pos=layout.controller})
-		return S("Digtron is adjacent to unloaded nodes.") .. "\n" .. status_text, 1
+		return S("Digtron is adjacent to unloaded nodes.\n@1", status_text), 1
 	end
 
 	if layout.water_touching == true then
@@ -63,8 +63,7 @@ local function neighbour_test(layout, status_text, dir)
 	if dir and dir.y ~= -1 and layout.traction * digtron.config.traction_factor < table.getn(layout.all) then
 		-- digtrons can't fly, though they can fall
 		minetest.sound_play("squeal", {gain=1.0, pos=layout.controller})
-		return S("Digtron has @1 blocks but only enough traction to move @2 blocks.@n", table.getn(layout.all), layout.traction * digtron.config.traction_factor)
-			 .. status_text, 2
+		return S("Digtron has @1 blocks but only enough traction to move @2 blocks.\n@3", table.getn(layout.all), layout.traction * digtron.config.traction_factor, status_text), 2
 	end
 
 	return status_text, 0
@@ -175,7 +174,7 @@ digtron.execute_dig_cycle = function(pos, clicker)
 				end
 				digging_fuel_cost = digging_fuel_cost + fuel_cost
 			else
-				minetest.log(string.format("%s has digger group but is missing execute_dig method! This is an error in mod programming, file a bug.", targetdef.name))
+				minetest.log(S("@1 has digger group but is missing execute_dig method! This is an error in mod programming, file a bug.", targetdef.name))
 			end
 		end
 	end
@@ -202,7 +201,7 @@ digtron.execute_dig_cycle = function(pos, clicker)
 		minetest.get_node_timer(pos):start(digtron.config.cycle_time)
 		minetest.sound_play("squeal", {gain=1.0, pos=pos})
 		minetest.sound_play("buzzer", {gain=0.5, pos=pos})
-		return pos, S("Digtron is obstructed.") .. "\n" .. status_text, 3 --Abort, don't dig and don't build.
+		return pos, S("Digtron is obstructed.\n@1", status_text), 3 --Abort, don't dig and don't build.
 	end
 
 	----------------------------------------------------------------------------------------------------------------------
@@ -234,7 +233,7 @@ digtron.execute_dig_cycle = function(pos, clicker)
 					break
 				end
 			else
-				minetest.log(string.format("%s has builder group but is missing test_build method! This is an error in mod programming, file a bug.", targetdef.name))
+				minetest.log(S("@1 has builder group but is missing test_build method! This is an error in mod programming, file a bug.", targetdef.name))
 			end
 		end
 	end
@@ -301,12 +300,12 @@ digtron.execute_dig_cycle = function(pos, clicker)
 		return_code = 5
 		if test_build_return_code == 3 then
 			minetest.sound_play("honk", {gain=0.5, pos=pos}) -- A builder is not configured
-			return_string = S("Digtron connected to at least one builder with no output material assigned.") .. "\n"
+			return_string = S("Digtron connected to at least one builder with no output material assigned.\n")
 			return_code = 6
 		elseif test_build_return_code == 2 then
 			local item_display_name = failed_to_find:get_short_description() .. " (" .. failed_to_find:get_name() .. ")"
 			minetest.sound_play("dingding", {gain=1.0, pos=pos}) -- Insufficient inventory
-			return_string = S("Digtron has insufficient building materials. Needed: @1", item_display_name) .. "\n"
+			return_string = S("Digtron has insufficient building materials. Needed: @1\n", item_display_name)
 			return_code = 7
 		end
 		return pos, return_string .. status_text, return_code --Abort, don't dig and don't build.
@@ -368,7 +367,7 @@ digtron.execute_dig_cycle = function(pos, clicker)
 					building_fuel_cost = building_fuel_cost + (digtron.config.build_cost * build_return)
 				end
 			else
-				minetest.log(string.format("%s has builder group but is missing execute_build method! This is an error in mod programming, file a bug.", targetdef.name))
+				minetest.log(S("@1 has builder group but is missing execute_build method! This is an error in mod programming, file a bug.", targetdef.name))
 			end
 		end
 	end
@@ -380,7 +379,7 @@ digtron.execute_dig_cycle = function(pos, clicker)
 			if targetdef.execute_eject ~= nil then
 				targetdef.execute_eject(location.pos, target, clicker, layout)
 			else
-				minetest.log(string.format("%s has an ejector group but is missing execute_eject method! This is an error in mod programming, file a bug.", targetdef.name))
+				minetest.log(S("@1 has an ejector group but is missing execute_eject method! This is an error in mod programming, file a bug.", targetdef.name))
 			end
 		end
 	end
@@ -390,7 +389,7 @@ digtron.execute_dig_cycle = function(pos, clicker)
 		-- We weren't able to detect this build failure ahead of time, so make a big noise now. This is strange, shouldn't happen.
 		minetest.sound_play("dingding", {gain=1.0, pos=pos})
 		minetest.sound_play("buzzer", {gain=0.5, pos=pos})
-		status_text = S("Digtron unexpectedly failed to execute one or more build operations, likely due to an inventory error.") .. "\n"
+		status_text = S("Digtron unexpectedly failed to execute one or more build operations, likely due to an inventory error.\n")
 	end
 
 	local total_fuel_cost = math.max(digging_fuel_cost + building_fuel_cost - power_from_cables, 0)
@@ -411,7 +410,7 @@ digtron.execute_dig_cycle = function(pos, clicker)
 
 	meta:set_float("fuel_burning", fuel_burning)
 	meta:set_int("on_coal", exhaust)
-	status_text = status_text .. S("Heat remaining in controller furnace: @1", math.floor(math.max(0, fuel_burning)))
+	status_text = S("@1Heat remaining in controller furnace: @2", status_text, math.floor(math.max(0, fuel_burning)))
 
 	-- Eyecandy
 	for _, particles in pairs(particle_systems) do
@@ -423,8 +422,8 @@ digtron.execute_dig_cycle = function(pos, clicker)
 	local node_to_dig, whether_to_dig = layout.nodes_dug:pop()
 	while node_to_dig ~= nil do
 		if whether_to_dig == true then
-			minetest.log("action", string.format(
-				"%s uses Digtron to dig %s at (%d, %d, %d)", clicker:get_player_name(), minetest.get_node(node_to_dig).name, node_to_dig.x, node_to_dig.y, node_to_dig.z)
+			minetest.log("action", S(
+				"@1 uses Digtron to dig @2 at (@3, @4, @5)", clicker:get_player_name(), minetest.get_node(node_to_dig).name, node_to_dig.x, node_to_dig.y, node_to_dig.z)
 			)
 			minetest.remove_node(node_to_dig)
 		end
@@ -467,7 +466,7 @@ digtron.execute_move_cycle = function(pos, clicker)
 		minetest.get_node_timer(pos):start(digtron.config.cycle_time)
 		minetest.sound_play("squeal", {gain=1.0, pos=pos})
 		minetest.sound_play("buzzer", {gain=0.5, pos=pos})
-		return pos, S("Digtron is obstructed.") .. "\n" .. status_text, 3 --Abort, don't dig and don't build.
+		return pos, S("Digtron is obstructed.\n@1", status_text) , 3 --Abort, don't dig and don't build.
 	end
 
 	minetest.sound_play("truck", {gain=1.0, pos=pos})
@@ -541,7 +540,7 @@ digtron.execute_downward_dig_cycle = function(pos, clicker)
 				end
 				digging_fuel_cost = digging_fuel_cost + fuel_cost
 			else
-				minetest.log(string.format("%s has digger group but is missing execute_dig method! This is an error in mod programming, file a bug.", targetdef.name))
+				minetest.log(S("@1 has digger group but is missing execute_dig method! This is an error in mod programming, file a bug.", targetdef.name))
 			end
 		end
 	end
@@ -568,7 +567,7 @@ digtron.execute_downward_dig_cycle = function(pos, clicker)
 		minetest.get_node_timer(pos):start(digtron.config.cycle_time)
 		minetest.sound_play("squeal", {gain=1.0, pos=pos})
 		minetest.sound_play("buzzer", {gain=0.5, pos=pos})
-		return pos, S("Digtron is obstructed.") .. "\n" .. status_text, 3 --Abort, don't dig and don't build.
+		return pos, S("Digtron is obstructed.\n@1", status_text), 3 --Abort, don't dig and don't build.
 	end
 
 	----------------------------------------------------------------------------------------------------------------------
@@ -626,7 +625,7 @@ digtron.execute_downward_dig_cycle = function(pos, clicker)
 
 	meta:set_float("fuel_burning", fuel_burning)
 	meta:set_int("on_coal", exhaust)
-	status_text = status_text .. S("Heat remaining in controller furnace: @1", math.floor(math.max(0, fuel_burning)))
+	status_text = S("@1Heat remaining in controller furnace: @2", status_text, math.floor(math.max(0, fuel_burning)))
 
 	-- Eyecandy
 	for _, particles in pairs(particle_systems) do
@@ -638,8 +637,8 @@ digtron.execute_downward_dig_cycle = function(pos, clicker)
 	local node_to_dig, whether_to_dig = layout.nodes_dug:pop()
 	while node_to_dig ~= nil do
 		if whether_to_dig == true then
-			minetest.log("action", string.format(
-				"%s uses Digtron to dig %s at (%d, %d, %d)", clicker:get_player_name(), minetest.get_node(node_to_dig).name, node_to_dig.x, node_to_dig.y, node_to_dig.z)
+			minetest.log("action", S(
+				"@1 uses Digtron to dig @2 at (@3, @4, @5)", clicker:get_player_name(), minetest.get_node(node_to_dig).name, node_to_dig.x, node_to_dig.y, node_to_dig.z)
 			)
 			minetest.remove_node(node_to_dig)
 		end

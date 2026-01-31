@@ -18,6 +18,9 @@
 --See the GNU Lesser General Public License for more details:
 --https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 
+-- internationalization boilerplate
+local S = digtron.S
+
 -- Mapping from facedir value to index in facedir_to_dir.
 digtron.facedir_to_dir_map = {
 	[0]=1, 2, 3, 4,
@@ -125,9 +128,7 @@ digtron.item_place_node = function(itemstack, placer, place_to, param2)
 
 	--this should never happen, digtron is testing for adjacent unloaded nodes before getting here.
 	if not oldnode then
-		minetest.log("info", placer:get_player_name() .. " tried to place"
-			.. " node in unloaded position " .. minetest.pos_to_string(place_to)
-			.. " using a digtron.")
+		minetest.log("info", S("@1 tried to place node in unloaded position @2 using a digtron.", placer:get_player_name(), minetest.pos_to_string(place_to)))
 		return itemstack, false
 	end
 
@@ -139,8 +140,7 @@ digtron.item_place_node = function(itemstack, placer, place_to, param2)
 	-- Check if the node is attached and if it can be placed there
 	if minetest.get_item_group(def.name, "attached_node") ~= 0 and
 		not check_attached_node(place_to, newnode) then
-		minetest.log("action", "attached node " .. def.name ..
-			" can not be placed at " .. minetest.pos_to_string(place_to))
+		minetest.log("action", S("attached node @1 can not be placed at @2", def.name, minetest.pos_to_string(place_to)))
 		return itemstack, false
 	end
 

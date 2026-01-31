@@ -29,7 +29,7 @@ local ejector_formspec = function(_, meta)
 			"tooltip[nonpipe;" .. S("When checked, will eject items even if there's no pipe to accept it") .. "]"
 	end
 	return return_string .. "checkbox[0,0;autoeject;"..S("Automatic")..";"..meta:get_string("autoeject").."]" ..
-		"tooltip[autoeject;" .. S("When checked, will eject items automatically with every Digtron cycle.@nItem ejectors can always be operated manually by punching them.") .. "]"
+		"tooltip[autoeject;" .. S("When checked, will eject items automatically with every Digtron cycle.\nItem ejectors can always be operated manually by punching them.") .. "]"
 end
 
 local function eject_items(pos, node, player, eject_even_without_pipeworks, layout)

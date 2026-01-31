@@ -2,12 +2,15 @@ digtron = {}
 
 digtron.S = minetest.get_translator("digtron")
 
+-- internationalization boilerplate
+local S = digtron.S
+
 digtron.auto_controller_colorize = "#88000030"
 digtron.pusher_controller_colorize = "#00880030"
 digtron.soft_digger_colorize = "#88880030"
 
 if not vector.copy then
-	error("[digtron] Your Luanti/Minetest version is too old. Please update to 5.5.0 or newer.")
+	error(S("[digtron] Your Luanti/Minetest version is too old. Please update to 5.10.0 or newer."))
 end
 
 digtron.set_inventory_action_loggers = function(def, name)
@@ -16,7 +19,7 @@ digtron.set_inventory_action_loggers = function(def, name)
 end
 
 if not default.set_inventory_action_loggers then
-	minetest.log("error", "[digtron] Your Minetest Game (default mod) version seems very old. Digtron may not work correctly. Please consider updating to a current version.")
+	minetest.log("error", S("[digtron] Your Minetest Game (default mod) version seems very old. Digtron may not work correctly. Please consider updating to a current version."))
 
 	digtron.set_inventory_action_loggers = function(def)
 		return def

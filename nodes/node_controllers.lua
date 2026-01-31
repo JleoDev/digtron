@@ -98,7 +98,7 @@ local auto_formspec = "size[8,6.2]" ..
 	default.gui_slots ..
 	"container[2.0,0]" ..
 	"field[0.0,0.8;1,0.1;cycles;" .. S("Cycles").. ";${cycles}]" ..
-	"tooltip[cycles;" .. S("When triggered, this controller will try to run for the given number of cycles.@nThe cycle count will decrement as it runs, so if it gets halted by a problem@n" ..
+	"tooltip[cycles;" .. S("When triggered, this controller will try to run for the given number of cycles.\nThe cycle count will decrement as it runs, so if it gets halted by a problem\n" ..
 		"you can fix the problem and restart.").. "]" ..
 	"button_exit[0.7,0.5;1,0.1;set;" .. S("Set").. "]" ..
 	"tooltip[set;" .. S("Saves the cycle setting without starting the controller running").. "]" ..
@@ -144,7 +144,7 @@ local function auto_cycle(pos)
 		local newpos, status, return_code = digtron.execute_downward_dig_cycle(pos, player)
 
 		if vector.equals(pos, newpos) then
-			status = status .. "\n" .. S("Cycles remaining: @1", cycle) .. "\n" .. S("Halted!")
+			status = S("@1\nCycles remaining: @2\nHalted!", status, cycle)
 			meta:set_string("infotext", status)
 			if return_code == 1 then --return code 1 happens when there's unloaded nodes adjacent, just keep trying.
 				if digtron.config.emerge_unloaded_mapblocks then
@@ -166,7 +166,7 @@ local function auto_cycle(pos)
 	local newpos, status, return_code = digtron.execute_dig_cycle(pos, player)
 
 	if vector.equals(pos, newpos) then
-		status = status .. "\n" .. S("Cycles remaining: @1", cycle) .. "\n" .. S("Halted!")
+		status = S("@1\nCycles remaining: @2\nHalted!", status, cycle)
 		meta:set_string("infotext", status)
 		if return_code == 1 then --return code 1 happens when there's unloaded nodes adjacent, call emerge and keep trying.
 			if digtron.config.emerge_unloaded_mapblocks then
@@ -182,7 +182,7 @@ local function auto_cycle(pos)
 	meta = minetest.get_meta(newpos)
 	cycle = meta:get_int("cycles") - 1
 	meta:set_int("cycles", cycle)
-	status = status .. "\n" .. S("Cycles remaining: @1", cycle)
+	status = S("@1\nCycles remaining: @2", status, cycle)
 	meta:set_string("infotext", status)
 	meta:set_string("lateral_done", "")
 
@@ -315,7 +315,7 @@ minetest.register_node("digtron:auto_controller", {
 
 	on_rightclick = function(pos)
 		local meta = minetest.get_meta(pos)
-		meta:set_string("infotext", meta:get_string("infotext") .. "\n" .. S("Interrupted!"))
+		meta:set_string("infotext", S("@1\nInterrupted!", meta:get_string("infotext")))
 		meta:set_string("waiting", "true")
 		meta:set_string("formspec", auto_formspec)
 	end,

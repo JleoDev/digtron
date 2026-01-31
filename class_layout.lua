@@ -4,6 +4,9 @@ digtron.DigtronLayout.__index = digtron.DigtronLayout
 -------------------------------------------------------------------------
 -- Creation
 
+-- internationalization boilerplate
+local S = digtron.S
+
 local get_node_image = function(pos, node)
 	local node_image = {node=node, pos=vector.copy(pos)}
 	local node_def = digtron.get_nodedef(node.name)
@@ -17,12 +20,10 @@ local get_node_image = function(pos, node)
 	local group = minetest.get_item_group(node.name, "digtron")
 	-- group 1 has no special metadata
 	if group > 1 and group < 10 then
-		assert(node_image ~= nil and node_image.meta ~= nil, "[Digtron] Digtron failed to get a metadata table for a Digtron node in group "
-			.. tostring(group) .. ". This error should not be possible. Please see https://github.com/minetest/minetest/issues/8067")
+		assert(node_image ~= nil and node_image.meta ~= nil, S("[Digtron] Digtron failed to get a metadata table for a Digtron node in group @1. This error should not be possible. Please see https://github.com/minetest/minetest/issues/8067", tostring(group)))
 		-- These groups have inventories
 		if group == 2 or (group > 3 and group < 8) then
-			assert(node_image.meta.inventory ~= nil, "[Digtron] Digtron failed to get a metadata inventory table for a Digtron node in group "
-			.. tostring(group) .. ". This error should not be possible. Please see https://github.com/minetest/minetest/issues/8067")
+			assert(node_image.meta.inventory ~= nil, S("[Digtron] Digtron failed to get a metadata inventory table for a Digtron node in group @1. This error should not be possible. Please see https://github.com/minetest/minetest/issues/8067", tostring(group)))
 		end
 	end
 
@@ -460,7 +461,7 @@ function digtron.DigtronLayout.write_layout_image(self, player)
 		local old_meta = minetest.get_meta(oldpos):to_table()
 
 		if not set_node_with_retry(oldpos, air_node) then
-			minetest.log("error", "DigtronLayout.write_layout_image failed to destroy old Digtron node, aborting write.")
+			minetest.log("error", S("DigtronLayout.write_layout_image failed to destroy old Digtron node, aborting write."))
 			return false
 		end
 
@@ -478,7 +479,7 @@ function digtron.DigtronLayout.write_layout_image(self, player)
 		local old_node = minetest.get_node(new_pos)
 
 		if not (set_node_with_retry(new_pos, new_node) and set_meta_with_retry(minetest.get_meta(new_pos), node_image.meta)) then
-			minetest.log("error", "DigtronLayout.write_layout_image failed to write a Digtron node, aborting write.")
+			minetest.log("error", S("DigtronLayout.write_layout_image failed to write a Digtron node, aborting write."))
 			return false
 		end
 

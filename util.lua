@@ -1,3 +1,6 @@
+-- internationalization boilerplate
+local S = digtron.S
+
 -- A random assortment of methods used in various places in this mod.
 
 dofile( minetest.get_modpath( "digtron" ) .. "/util_item_place_node.lua" ) -- separated out to avoid potential for license complexity
@@ -65,7 +68,7 @@ digtron.mark_diggable = function(pos, nodes_dug, player)
 	local targetdef = minetest.registered_nodes[target.name]
 	if targetdef == nil then
 		minetest.log("warning",
-			string.format("Digtron encountered unknown node %s at (%d, %d, %d), not digging", target.name, pos.x, pos.y, pos.z))
+			S("Digtron encountered unknown node @1 at (@2, @3, @4), not digging", target.name, pos.x, pos.y, pos.z))
 	elseif (targetdef.diggable or targetdef.buildable_to) and
 		(targetdef.can_dig == nil or targetdef.can_dig(pos, player)) and
 		targetdef.on_dig == minetest.nodedef_default.on_dig and
