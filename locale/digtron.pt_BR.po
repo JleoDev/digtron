@@ -1,0 +1,1754 @@
+# Portuguese translations for PACKAGE package.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Leonardo <jleodev.contact@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-31 14:39-0300\n"
+"PO-Revision-Date: 2026-01-30 20:06-0300\n"
+"Last-Translator: Leonardo <jleodev.contact@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: awards.lua:123
+msgid "Deep Blue Digtron"
+msgstr "Digtron Azul Profundo"
+
+#: awards.lua:124
+msgid "Encounter water while operating a Digtron."
+msgstr "Encontre água enquanto opera um Digtron."
+
+#: awards.lua:130
+msgid "Digtrons of Fire"
+msgstr "Digtrons de Fogo"
+
+#: awards.lua:131
+msgid "Encounter lava while operating a Digtron."
+msgstr "Encontre lava enquanto opera um Digtron."
+
+#: awards.lua:137
+msgid "Bigtron"
+msgstr "Bigtron"
+
+#: awards.lua:138
+msgid "Operate a Digtron with 10 or more component blocks."
+msgstr "Opere um Digtron com 10 ou mais blocos de componentes."
+
+#: awards.lua:144
+msgid "Really Bigtron"
+msgstr "Bigtron de Respeito"
+
+#: awards.lua:145
+msgid "Operate a Digtron with 100 or more component blocks."
+msgstr "Opere um Digtron com 100 ou mais blocos de componentes."
+
+#: awards.lua:151
+msgid "Buildtron"
+msgstr "Construtron"
+
+#: awards.lua:152
+msgid "Operate a Digtron with 25 or more builder modules."
+msgstr "Opere um Digtron com 25 ou mais módulos construtores."
+
+#: awards.lua:158
+msgid "Digging Leviathan"
+msgstr "Leviatã da Escavação"
+
+#: awards.lua:159
+msgid "Operate a Digtron with 25 or more digger heads."
+msgstr "Opere um Digtron com 25 ou mais cabeças escavadoras."
+
+#: awards.lua:165
+msgid "Digtron In The Sky"
+msgstr "Digtron no Céu"
+
+#: awards.lua:166
+msgid "Operate a Digtron above 1000m elevation."
+msgstr "Opere um Digtron acima de 1000m de altitude."
+
+#: awards.lua:172
+msgid "Digtron High"
+msgstr "Digtron nas Alturas"
+
+#: awards.lua:173
+msgid "Operate a Digtron above 100m elevation."
+msgstr "Opere um Digtron acima de 100m de altitude."
+
+#: awards.lua:179
+msgid "Scratching the Surface"
+msgstr "Raspando a Superfície"
+
+#: awards.lua:180
+msgid "Operate a Digtron 100m underground."
+msgstr "Opere um Digtron 100m abaixo do solo."
+
+#: awards.lua:186
+msgid "Digging Deeper"
+msgstr "Escavando Mais Fundo"
+
+#: awards.lua:187
+msgid "Operate a Digtron 1,000m underground."
+msgstr "Opere um Digtron 1.000m abaixo do solo."
+
+#: awards.lua:193
+msgid "More Than a Mile"
+msgstr "Mais de uma Milha"
+
+#: awards.lua:194
+msgid "Operate a Digtron 2,000m underground."
+msgstr "Opere um Digtron 2.000m abaixo do solo."
+
+#: awards.lua:200
+msgid "Digging Below Plausibility"
+msgstr "Escavando Além do Plausível"
+
+#: awards.lua:201
+msgid "Operate a Digtron 4,000m underground."
+msgstr "Opere um Digtron 4.000m abaixo do solo."
+
+#: awards.lua:207
+msgid "Double Depth"
+msgstr "Profundidade Dobrada"
+
+#: awards.lua:208
+msgid "Operate a Digtron 8,000m underground."
+msgstr "Opere um Digtron 8.000m abaixo do solo."
+
+#: awards.lua:214
+msgid "Halfway to the Core"
+msgstr "Metade do Caminho para o Núcleo"
+
+#: awards.lua:215
+msgid ""
+"The deepest mine in the world is only ~15 km deep, you operated a Digtron "
+"below 16km."
+msgstr ""
+"A mina mais profunda do mundo tem apenas ~15 km de profundidade; você operou"
+" um Digtron abaixo de 16 km."
+
+#: awards.lua:221
+msgid "Nowhere To Go But Up"
+msgstr "Sem Saída, Exceto para Cima"
+
+#: awards.lua:222
+msgid "Operate a Digtron 30,000m underground."
+msgstr "Opere um Digtron 30.000m abaixo do solo."
+
+#: awards.lua:228
+msgid "Mese Master"
+msgstr "Mestre do Mese"
+
+#: awards.lua:229
+msgid "Mine 100 Mese crystals with a Digtron."
+msgstr "Minere 100 cristais de Mese com um Digtron."
+
+#: awards.lua:240
+msgid "Diamond Vs. Diamond"
+msgstr "Diamante Contra Diamante"
+
+#: awards.lua:241
+msgid "Mine 100 diamonds with a Digtron."
+msgstr "Minere 100 diamantes com um Digtron."
+
+#: awards.lua:252
+msgid "Strip Mining"
+msgstr "Mineração a Céu Aberto"
+
+#: awards.lua:253
+msgid "Excavate 1000 units of dirt with a Digtron."
+msgstr "Escave 1000 unidades de terra com um Digtron."
+
+#: awards.lua:264
+msgid "Digtron Miner"
+msgstr "Minerador Digtron"
+
+#: awards.lua:265
+msgid "Excavate 1000 blocks using a Digtron."
+msgstr "Escave 1000 blocos usando um Digtron."
+
+#: awards.lua:275
+msgid "Digtron Expert Miner"
+msgstr "Minerador Especialista"
+
+#: awards.lua:276
+msgid "Excavate 10,000 blocks using a Digtron."
+msgstr "Escave 10.000 blocos usando um Digtron."
+
+#: awards.lua:286
+msgid "Digtron Master Miner"
+msgstr "Mestre Minerador"
+
+#: awards.lua:287
+msgid "Excavate 100,000 blocks using a Digtron."
+msgstr "Escave 100.000 blocos usando um Digtron."
+
+#: awards.lua:297
+msgid "DIGTRON MEGAMINER"
+msgstr "MEGAMINERADOR DIGTRON"
+
+#: awards.lua:298
+msgid "Excavate over a million blocks using a Digtron!"
+msgstr "Escave mais de um milhão de blocos usando um Digtron!"
+
+#: awards.lua:308
+msgid "Clear Cutting"
+msgstr "Corte Raso"
+
+#: awards.lua:309
+msgid "Chop down 1000 units of tree with a Digtron."
+msgstr "Derrube 1000 unidades de árvore com um Digtron."
+
+#: awards.lua:320
+msgid "Digtron Deforestation"
+msgstr "Desmatamento com Digtron"
+
+#: awards.lua:321
+msgid "Chop down 10,000 units of tree with a Digtron."
+msgstr "Derrube 10.000 unidades de árvore com um Digtron."
+
+#: awards.lua:332
+msgid "Lawnmower"
+msgstr "Cortador de Grama"
+
+#: awards.lua:333
+msgid "Harvest 1000 units of grass with a Digtron."
+msgstr "Colha 1000 unidades de grama com um Digtron."
+
+#: awards.lua:344
+msgid "Iron Digtron"
+msgstr "Digtron de Ferro"
+
+#: awards.lua:345
+msgid "Excavate 1000 units of iron ore with a Digtron."
+msgstr "Escave 1000 unidades de minério de ferro com um Digtron."
+
+#: awards.lua:356
+msgid "Copper Digtron"
+msgstr "Digtron de Cobre"
+
+#: awards.lua:357
+msgid "Excavate 1000 units of copper ore with a Digtron."
+msgstr "Escave 1000 unidades de minério de cobre com um Digtron."
+
+#: awards.lua:368
+msgid "Coal Digtron"
+msgstr "Digtron de Carvão"
+
+#: awards.lua:369
+msgid "Excavate 1,000 units of coal with a Digtron."
+msgstr "Escave 1.000 unidades de carvão com um Digtron."
+
+#: awards.lua:380
+msgid "Bagger 288"
+msgstr "Bagger 288"
+
+#: awards.lua:381
+msgid "Excavate 10,000 units of coal with a Digtron."
+msgstr "Escave 10.000 unidades de carvão com um Digtron."
+
+#: awards.lua:392
+msgid "Digtron 49er"
+msgstr "Digtron 49er"
+
+#: awards.lua:393
+msgid "Excavate 100 units of gold with a Digtron."
+msgstr "Escave 100 unidades de ouro com um Digtron."
+
+#: awards.lua:404
+msgid "Constructive Digging"
+msgstr "Escavação Construtiva"
+
+#: awards.lua:405
+msgid "Build 1,000 blocks with a Digtron."
+msgstr "Construa 1.000 blocos com um Digtron."
+
+#: awards.lua:415
+msgid "Highly Constructive Digging"
+msgstr "Escavação Altamente Construtiva"
+
+#: awards.lua:416
+msgid "Build 10,000 blocks with a Digtron."
+msgstr "Construa 10.000 blocos com um Digtron."
+
+#: awards.lua:426
+msgid "Digtron Packrat"
+msgstr "Digtron Acumulador"
+
+#: awards.lua:427
+msgid "Stored 10 or more Digtron blocks in one crate."
+msgstr "Armazenou 10 ou mais blocos Digtron em uma única caixa."
+
+#: awards.lua:433
+msgid "Digtron Hoarder"
+msgstr "Digtron Colecionador"
+
+#: awards.lua:434
+msgid "Stored 100 or more Digtron blocks in one crate."
+msgstr "Armazenou 100 ou mais blocos Digtron em uma única caixa."
+
+#: class_layout.lua:23
+msgid ""
+"[Digtron] Digtron failed to get a metadata table for a Digtron node in group"
+" @1. This error should not be possible. Please see "
+"https://github.com/minetest/minetest/issues/8067"
+msgstr ""
+"[Digtron] O Digtron falhou ao obter uma tabela de metadados para um nó do "
+"Digtron no grupo @1. Este erro não deveria ser possível. Por favor, veja "
+"https://github.com/minetest/minetest/issues/8067"
+
+#: class_layout.lua:26
+msgid ""
+"[Digtron] Digtron failed to get a metadata inventory table for a Digtron "
+"node in group @1. This error should not be possible. Please see "
+"https://github.com/minetest/minetest/issues/8067"
+msgstr ""
+"[Digtron] O Digtron falhou ao obter uma tabela de inventário de metadados "
+"para um nó do Digtron no grupo @1. Este erro não deveria ser possível. Por "
+"favor, veja https://github.com/minetest/minetest/issues/8067"
+
+#: class_layout.lua:464
+msgid ""
+"DigtronLayout.write_layout_image failed to destroy old Digtron node, "
+"aborting write."
+msgstr ""
+"DigtronLayout.write_layout_image falhou ao destruir o nó antigo do Digtron, "
+"abortando a gravação."
+
+#: class_layout.lua:482
+msgid ""
+"DigtronLayout.write_layout_image failed to write a Digtron node, aborting "
+"write."
+msgstr ""
+"DigtronLayout.write_layout_image falhou ao gravar um nó do Digtron, "
+"abortando a gravação."
+
+#: doc.lua:23
+msgid ""
+"A crafting component used in the manufacture of all Digtron block types."
+msgstr ""
+"Um componente de fabricação usado na manufatura de todos os tipos de blocos "
+"Digtron."
+
+#: doc.lua:25
+msgid ""
+"Place the Digtron Core in the center of the crafting grid. All Digtron "
+"recipes consist of arranging various other materials around the central "
+"Digtron Core."
+msgstr ""
+"Coloque o Núcleo do Digtron no centro da grade de fabricação. Todas as "
+"receitas do Digtron consistem em organizar diversos outros materiais ao "
+"redor do Núcleo do Digtron central."
+
+#: doc.lua:29
+msgid ""
+"A 'builder' module for a Digtron. By itself it does nothing, but as part of "
+"a Digtron it is used to construct user-defined blocks."
+msgstr ""
+"Um módulo 'construtor' para um Digtron. Por si só ele não faz nada, mas como"
+" parte de um Digtron é usado para construir blocos definidos pelo usuário."
+
+#: doc.lua:30
+msgid ""
+"A builder head is the most complex component of this system. It has period and offset properties, and also an inventory slot where you \"program\" it by placing an example of the block type that you want it to build.\n"
+"\n"
+"When the \"Save & Show\" button is clicked the properties for period and offset will be saved, and markers will briefly be shown to indicate where the nearest spots corresponding to those values are. The builder will build its output at those locations provided it is moving along the matching axis.\n"
+"\n"
+"There is also an \"Extrusion\" setting. This allows your builder to extrude a line of identical blocks from the builder output, in the direction the output side is facing, until it reaches an obstruction or until it reaches the extrusion limit. This can be useful for placing columns below a bridge, or for filling a large volume with a uniform block type without requiring a large number of builder heads.\n"
+"\n"
+"The \"output\" side of a builder is the side with a black crosshair on it.\n"
+"\n"
+"Builders also have a \"facing\" setting. If you haven't memorized the meaning of the 24 facing values yet, builder heads have a helpful \"Read & Save\" button to fill this value in for you. Simply build a temporary instance of the block in the output location in front of the builder, adjust it to the orientation you want using the screwdriver tool, and then when you click the \"Read & Save\" button the block's facing will be read and saved.\n"
+"\n"
+"Note: if more than one builder tries to build into the same space simultaneously, it is not predictable which builder will take priority. One will succeed and the other will fail. You should arrange your builders to avoid this for consistent results."
+msgstr ""
+"Uma cabeça construtora é o componente mais complexo deste sistema. Ela possui propriedades de período e deslocamento, além de um slot de inventário onde você a \"programa\" ao colocar um exemplo do tipo de bloco que deseja construir.\n"
+"\n"
+"Quando o botão \"Salvar e Mostrar\" é clicado, as propriedades de período e deslocamento serão salvas, e marcadores serão exibidos brevemente para indicar onde estão os pontos mais próximos correspondentes a esses valores. O construtor criará sua saída nesses locais, desde que esteja se movendo ao longo do eixo correspondente.\n"
+"\n"
+"Também há uma configuração de \"Extrusão\". Isso permite que seu construtor extruse uma linha de blocos idênticos a partir da saída do construtor, na direção em que o lado de saída está voltado, até encontrar uma obstrução ou atingir o limite de extrusão. Isso é útil para colocar colunas sob uma ponte ou para preencher grandes volumes com um tipo de bloco uniforme sem exigir várias cabeças construtoras.\n"
+"\n"
+"O lado de \"saída\" de um construtor é o lado que possui uma mira preta.\n"
+"\n"
+"Os construtores também possuem uma configuração de \"orientação\" (facing). Se você ainda não decorou o significado dos 24 valores de orientação, as cabeças construtoras têm um botão útil de \"Ler e Salvar\" para preencher esse valor automaticamente. Basta construir uma instância temporária do bloco no local de saída em frente ao construtor, ajustá-lo para a orientação desejada com a chave de fenda e, ao clicar no botão \"Ler e Salvar\", a orientação do bloco será lida e salva.\n"
+"\n"
+"Nota: se mais de um construtor tentar construir no mesmo espaço simultaneamente, não é possível prever qual terá prioridade. Um terá sucesso e o outro falhará. Você deve organizar seus construtores para evitar isso e obter resultados consistentes."
+
+#: doc.lua:35
+msgid ""
+"Stores building materials for use by builder heads and materials dug up by "
+"digger heads."
+msgstr ""
+"Armazena materiais de construção para uso pelas cabeças construtoras e "
+"materiais escavados pelas cabeças escavadoras."
+
+#: doc.lua:36
+msgid ""
+"Inventory modules have the same capacity as a chest. They're used both for storing the products of the digger heads and as the source of materials used by the builder heads. A digging machine whose builder heads are laying down cobble can automatically self-replenish in this way, but note that an inventory module is still required as buffer space even if the digger heads produced everything needed by the builder heads in a given cycle.\n"
+"\n"
+"Inventory modules are not required for a digging-only machine. If there's not enough storage space to hold the materials produced by the digging heads the excess material will be ejected out the back of the control block. They're handy for accumulating ores and other building materials, though.\n"
+"\n"
+"Digging machines can have multiple inventory modules added to expand their capacity."
+msgstr ""
+"Módulos de inventário têm a mesma capacidade de um baú. Eles são usados tanto para armazenar os produtos das cabeças escavadoras quanto como fonte de materiais usados pelas cabeças construtoras. Uma máquina de escavação cujas cabeças construtoras estão colocando pedra britada pode se reabastecer automaticamente desta forma, mas observe que um módulo de inventário ainda é necessário como espaço de reserva (buffer), mesmo que as cabeças escavadoras produzam tudo o que as cabeças construtoras precisam em um determinado ciclo.\n"
+"\n"
+"Módulos de inventário não são necessários para uma máquina apenas de escavação. Se não houver espaço de armazenamento suficiente para comportar os materiais produzidos pelas cabeças de escavação, o material em excesso será ejetado pela parte traseira do bloco de controle. No entanto, eles são úteis para acumular minérios e outros materiais de construção.\n"
+"\n"
+"Máquinas de escavação podem ter vários módulos de inventário adicionados para expandir sua capacidade."
+
+#: doc.lua:39
+msgid ""
+"@1\n"
+"\n"
+"Digtron inventory modules are compatible with hoppers, adjacent hoppers will add to or take from their inventories. Hoppers are not part of the Digtron and will not move with it, however. They may be useful for creating a \"docking station\" for a Digtron."
+msgstr ""
+"@1\n"
+"\n"
+"Os módulos de inventário do Digtron são compatíveis com funis (hoppers); funis adjacentes irão adicionar ou retirar itens de seus inventários. No entanto, os funis não fazem parte do Digtron e não se moverão com ele. Eles podem ser úteis para criar uma \"estação de acoplamento\" para um Digtron."
+
+#: doc.lua:43
+msgid ""
+"@1\n"
+"\n"
+"Inventory modules are compatible with Pipeworks blocks. When a Digtron moves one of the inventory modules adjacent to a pipe it will automatically hook up to it, and disconnect again when it moves on."
+msgstr ""
+"@1\n"
+"\n"
+"Os módulos de inventário são compatíveis com blocos do Pipeworks. Quando um Digtron move um dos módulos de inventário para adjacente a um cano, ele se conectará automaticamente a ele e se desconectará novamente quando continuar seu movimento."
+
+#: doc.lua:46
+msgid ""
+"When a control unit is triggered, it will tally up how much fuel is required for the next cycle and then burn items from the fuel hopper until a sufficient amount of heat has been generated to power the operation. Any leftover heat will be retained by the control unit for use in the next cycle; this is the \"heat remaining in controller furnace\". This means you don't have to worry too much about what kinds of fuel you put in the fuel store, none will be wasted (unless you dig away a control unit with some heat remaining in it, that heat does get wasted).\n"
+"\n"
+"By using one lump of coal as fuel a digtron can:\n"
+"Build @1 blocks\n"
+"Dig @2 stone blocks\n"
+"Dig @3 wood blocks\n"
+"Dig @4 dirt or sand blocks"
+msgstr ""
+"Quando uma unidade de controle é acionada, ela somará quanto combustível é necessário para o próximo ciclo e, em seguida, queimará itens do depósito de combustível até que uma quantidade suficiente de calor tenha sido gerada para alimentar a operação. Qualquer calor restante será retido pela unidade de controle para uso no próximo ciclo; este é o \"calor restante na fornalha do controlador\". Isso significa que você não precisa se preocupar muito com os tipos de combustível que coloca no estoque; nada será desperdiçado (a menos que você remova uma unidade de controle com calor restante nela; esse calor será desperdiçado).\n"
+"\n"
+"Usando um pedaço de carvão como combustível, um Digtron pode:\n"
+"Construir @1 blocos\n"
+"Escavar @2 blocos de pedra\n"
+"Escavar @3 blocos de madeira\n"
+"Escavar @4 blocos de terra ou areia"
+
+#: doc.lua:49
+msgid "Stores fuel to run a Digtron"
+msgstr "Armazena combustível para operar um Digtron."
+
+#: doc.lua:50
+msgid ""
+"Digtrons have an appetite. Build operations and dig operations require a certain amount of fuel, and that fuel comes from fuel store modules. Note that movement does not require fuel, only digging and building.\n"
+"\n"
+"@1"
+msgstr ""
+"Os Digtrons têm apetite. Operações de construção e operações de escavação exigem uma certa quantidade de combustível, e esse combustível vem dos módulos de armazenamento de combustível. Note que o movimento não requer combustível, apenas escavação e construção.\n"
+"\n"
+"@1"
+
+#: doc.lua:53
+msgid ""
+"@1\n"
+"\n"
+"Digtron fuel store modules are compatible with hoppers, adjacent hoppers will add to or take from their inventories. Hoppers are not part of the Digtron and will not move with it, however. They may be useful for creating a \"docking station\" for a Digtron."
+msgstr ""
+"@1\n"
+"\n"
+"Os módulos de armazenamento de combustível do Digtron são compatíveis com funis (hoppers); funis adjacentes irão adicionar ou retirar itens de seus inventários. No entanto, os funis não fazem parte do Digtron e não se moverão com ele. Eles podem ser úteis para criar uma \"estação de acoplamento\" para um Digtron."
+
+#: doc.lua:57 doc.lua:66
+msgid ""
+"@1\n"
+"\n"
+"Fuel modules are compatible with Pipeworks blocks. When a Digtron moves one of the inventory modules adjacent to a pipe it will automatically hook up to it, and disconnect again when it moves on."
+msgstr ""
+"@1\n"
+"\n"
+"Módulos de combustível são compatíveis com blocos do Pipeworks. Quando um Digtron move um dos módulos de inventário para adjacente a um cano, ele se conectará automaticamente a ele e se desconectará novamente quando continuar seu movimento."
+
+#: doc.lua:62
+msgid "Holds RE batteries to run a Digtron"
+msgstr "Comporta baterias RE para operar um Digtron."
+
+#: doc.lua:63
+msgid ""
+"Digtrons have an appetite, and it can be satisfied by electricity as well. Build operations and dig operations require a certain amount of power, and that power comes from the batteries place in the holder. Note that movement does not consume charge, only digging and building.\n"
+"\n"
+"When a control unit is triggered, it will tally up how much power is required for the next cycle and then discharge the batteries in the battery holder until a sufficient amount of heat has been generated to power the operation. Any leftover heat will be retained by the control unit for use in the next cycle; this is the \"heat remaining in controller furnace\". Thus no power is wasted (unless you dig away a control unit with some heat remaining in it, that heat does get wasted), and the discharged batteries can be taken away to be recharged.\n"
+"\n"
+"One fully charged battery can:\n"
+"Build @1 blocks\n"
+"Dig @2 stone blocks\n"
+"Dig @3 wood blocks\n"
+"Dig @4 dirt or sand blocks"
+msgstr ""
+"Os Digtrons têm apetite, e ele também pode ser satisfeito por eletricidade. Operações de construção e operações de escavação exigem uma certa quantidade de energia, e essa energia vem das baterias colocadas no suporte. Note que o movimento não consome carga, apenas a escavação e a construção.\n"
+"\n"
+"Quando uma unidade de controle é acionada, ela somará quanta energia é necessária para o próximo ciclo e, em seguida, descarregará as baterias no suporte até que uma quantidade suficiente de calor tenha sido gerada para alimentar a operação. Qualquer calor restante será retido pela unidade de controle para uso no próximo ciclo; este é o \"calor restante na fornalha do controlador\". Assim, nenhuma energia é desperdiçada (a menos que você remova uma unidade de controle com calor restante nela; esse calor será desperdiçado), e as baterias descarregadas podem ser retiradas para serem recarregadas.\n"
+"\n"
+"Uma bateria totalmente carregada pode:\n"
+"Construir @1 blocos\n"
+"Escavar @2 blocos de pedra\n"
+"Escavar @3 blocos de madeira\n"
+"Escavar @4 blocos de terra ou areia"
+
+#: doc.lua:70
+msgid ""
+"Stores fuel for a Digtron and also has an inventory for building materials"
+msgstr ""
+"Armazena combustível para um Digtron e também possui um inventário para "
+"materiais de construção."
+
+#: doc.lua:71
+msgid ""
+"For smaller jobs the two dedicated modules may simply be too much of a good thing, wasting precious Digtron space to give unneeded capacity. The combined storage module is the best of both worlds, splitting its internal space between building material inventory and fuel storage. It has 3/4 building material capacity and 1/4 fuel storage capacity.\n"
+"\n"
+"@1"
+msgstr ""
+"Para trabalhos menores, os dois módulos dedicados podem ser simplesmente excessivos, desperdiçando o precioso espaço do Digtron para oferecer uma capacidade desnecessária. O módulo de armazenamento combinado é o melhor dos dois mundos, dividindo seu espaço interno entre o inventário de materiais de construção e o armazenamento de combustível. Ele possui 3/4 da capacidade para materiais de construção e 1/4 da capacidade para armazenamento de combustível.\n"
+"\n"
+"@1"
+
+#: doc.lua:74
+msgid ""
+"@1\n"
+"\n"
+"Digtron inventory modules are compatible with hoppers, adjacent hoppers will add to or take from their inventories. A hopper on top of a combined inventory module will insert items into its general inventory, a side hopper will insert items into its fuel inventory, and a hopper on the bottom of a combined inventory module will take items from its general inventory. Hoppers are not part of the Digtron and will not move with it, however. They may be useful for creating a \"docking station\" for a Digtron."
+msgstr ""
+"@1\n"
+"\n"
+"Os módulos de inventário do Digtron são compatíveis com funis (hoppers); funis adjacentes irão adicionar ou retirar itens de seus inventários. Um funil no topo de um módulo de inventário combinado inserirá itens em seu inventário geral, um funil lateral inserirá itens em seu inventário de combustível, e um funil na parte inferior de um módulo de inventário combinado retirará itens de seu inventário geral. No entanto, os funis não fazem parte do Digtron e não se moverão com ele. Eles podem ser úteis para criar uma \"estação de acoplamento\" para um Digtron."
+
+#: doc.lua:78
+msgid ""
+"@1\n"
+"\n"
+"Combination modules are compatible with Pipeworks blocks. When a Digtron moves one of the inventory modules adjacent to a pipe it will automatically hook up to it, and disconnect again when it moves on. Items are extracted from the \"main\" inventory, and items coming into the combination module from any direction except the underside are inserted into \"main\". However, a pipe entering the combination module from the underside will attempt to insert items into the \"fuel\" inventory instead."
+msgstr ""
+"@1\n"
+"\n"
+"Módulos de combinação são compatíveis com blocos do Pipeworks. Quando um Digtron move um dos módulos de inventário para adjacente a um cano, ele se conectará automaticamente a ele e se desconectará novamente ao continuar seu movimento. Itens são extraídos do inventário \"principal\", e itens que entram no módulo de combinação por qualquer direção, exceto pela parte inferior, são inseridos no \"principal\". No entanto, um cano entrando no módulo de combinação pela parte inferior tentará inserir itens no inventário de \"combustível\" em seu lugar."
+
+#: doc.lua:83
+msgid ""
+"\n"
+"\n"
+"This is the \"locked\" version of the Digtron crate. It can only be used by the player who placed it."
+msgstr ""
+"\n"
+"\n"
+"Esta é a versão \"trancada\" da caixa do Digtron. Ela só pode ser usada pelo jogador que a colocou."
+
+#: doc.lua:85
+msgid "An empty crate that a Digtron can be stored in"
+msgstr "Uma caixa vazia onde um Digtron pode ser armazenado."
+
+#: doc.lua:86
+msgid ""
+"Digtrons can be pushed around and rotated, and that may be enough for getting them perfectly positioned for the start of a run. But once your digger is a kilometer down under a shaft filled with stairs, how to get it back to the surface to run another pass?\n"
+"\n"
+"Place an empty Digtron crate next to a Digtron and right-click it to pack the Digtron (and all its inventory and settings) into the crate. You can then collect the crate, bring it somewhere else, build the crate, and then unpack the Digtron from it again. The Digtron will appear in the same relative location and orientation to the crate as when it was packed away inside it."
+msgstr ""
+"Os Digtrons podem ser empurrados e rotacionados, e isso pode ser o suficiente para posicioná-los perfeitamente para o início de uma operação. Mas, uma vez que sua escavadeira esteja a um quilômetro de profundidade sob um poço cheio de escadas, como levá-la de volta à superfície para outra passagem?\n"
+"\n"
+"Coloque uma caixa de Digtron vazia ao lado de um Digtron e clique com o botão direito nela para empacotar o Digtron (e todo o seu inventário e configurações) na caixa. Você pode então coletar a caixa, levá-la para outro lugar, colocá-la no chão e desempacotar o Digtron novamente. O Digtron aparecerá na mesma localização e orientação relativas à caixa de quando foi empacotado dentro dela."
+
+#: doc.lua:88
+msgid "A crate containing a Digtron array"
+msgstr "Uma caixa contendo um conjunto de Digtron."
+
+#: doc.lua:89
+msgid ""
+"This crate contains a Digtron assembly that was stored in it earlier. Place "
+"it somewhere and right-click on it to access the label text that was applied"
+" to it. There's also a button that causes it to display the shape the "
+"deployed Digtron would take if you unpacked the crate, marking unbuildable "
+"blocks with a warning marker. And finally there's a button to actually "
+"deploy the Digtron, replacing this loaded crate with an empty that can be "
+"reused later."
+msgstr ""
+"Esta caixa contém uma montagem de Digtron que foi armazenada nela "
+"anteriormente. Coloque-a em algum lugar e clique com o botão direito nela "
+"para acessar o texto da etiqueta que foi aplicado a ela. Há também um botão "
+"que faz com que ela exiba a forma que o Digtron implantado tomaria se você "
+"desempacotasse a caixa, marcando blocos não construíveis com um marcador de "
+"aviso. E, finalmente, há um botão para realmente implantar o Digtron, "
+"substituindo esta caixa carregada por uma vazia que pode ser reutilizada "
+"posteriormente."
+
+#: doc.lua:99
+msgid "A basic controller to make a Digtron array move and operate."
+msgstr ""
+"Um controlador básico para fazer um conjunto de Digtron se mover e operar."
+
+#: doc.lua:100
+msgid ""
+"Right-click on this module to make the digging machine go one step. The digging machine will go in the direction that the control module is oriented.\n"
+"\n"
+"A control module can only trigger once per second. Gives you time to enjoy the scenery and smell the flowers (or their mulched remains, at any rate).\n"
+"\n"
+"If you're standing within the digging machine's volume, or in a block adjacent to it, you will be pulled along with the machine when it moves."
+msgstr ""
+"Clique com o botão direito neste módulo para fazer a máquina de escavação dar um passo. A máquina irá na direção em que o módulo de controle estiver orientado.\n"
+"\n"
+"Um módulo de controle só pode ser acionado uma vez por segundo. Isso te dá tempo para apreciar a paisagem e sentir o cheiro das flores (ou de seus restos triturados, de qualquer forma).\n"
+"\n"
+"Se você estiver dentro do volume da máquina de escavação, ou em um bloco adjacente a ela, será puxado junto com a máquina quando ela se mover."
+
+#: doc.lua:102
+msgid ""
+"A more sophisticated controller that includes the ability to set the number "
+"of cycles it will run for, as well as diagonal movement."
+msgstr ""
+"Um controlador mais sofisticado que inclui a capacidade de definir o número "
+"de ciclos de execução, bem como o movimento diagonal."
+
+#: doc.lua:103
+msgid ""
+"An Auto-control module can be set to run for an arbitrary number of cycles. Once it's running, right-click on it again to interrupt its rampage. If anything interrupts it - the player's click, an undiggable obstruction, running out of fuel - it will remember the number of remaining cycles so that you can fix the problem and set it running again to complete the original plan.\n"
+"\n"
+"The digging machine will go in the direction that the control module is oriented.\n"
+"\n"
+"Auto-controllers can also be set to move diagonally by setting the \"Slope\" parameter to a non-zero value. The controller will then shunt the Digtron in the direction of the arrows painted on its sides every X steps it moves. The Digtron will trigger dig heads when it shunts to the side, but will not trigger builder modules or intermittent dig heads. The \"Offset\" setting determines at what point the lateral motion will take place.\n"
+"\n"
+"The \"Stop block\" inventory slot in an auto-controller allows you to program an auto-controller to treat certain block types as impenetrable obstructions. This can allow you to fence a Digtron in with something so you don't have to carefully count exactly how many steps it should take, for example.\n"
+"\n"
+"Note that the Digtron detects an undiggable block by the item that would be produced when digging it. Setting cobble as the stop block will make both cobble and regular stone undiggable, but setting a block of regular stone (produced from cobble in a furnace) as the stop block will *not* stop a Digtron from digging regular stone (since digging regular stone produces cobble, not stone)."
+msgstr ""
+"Um módulo de Autocontrole pode ser configurado para rodar por um número arbitrário de ciclos. Uma vez em execução, clique com o botão direito nele novamente para interromper sua operação. Se qualquer coisa o interromper — o clique do jogador, uma obstrução não escavável, falta de combustível — ele lembrará o número de ciclos restantes para que você possa corrigir o problema e colocá-lo para rodar novamente para completar o plano original.\n"
+"\n"
+"A máquina de escavação irá na direção em que o módulo de controle estiver orientado.\n"
+"\n"
+"Controladores automáticos também podem ser configurados para se moverem diagonalmente definindo o parâmetro \"Inclinação\" (Slope) para um valor diferente de zero. O controlador irá então deslocar o Digtron na direção das setas pintadas em suas laterais a cada X passos percorridos. O Digtron acionará as cabeças de escavação quando se deslocar para o lado, mas não acionará módulos construtores ou cabeças de escavação intermitentes. A configuração de \"Deslocamento\" (Offset) determina em que ponto o movimento lateral ocorrerá.\n"
+"\n"
+"O slot de inventário \"Bloco de parada\" em um controlador automático permite programá-lo para tratar certos tipos de blocos como obstruções impenetráveis. Isso permite cercar um Digtron com algo para que você não precise contar cuidadosamente exatamente quantos passos ele deve dar, por exemplo.\n"
+"\n"
+"Note que o Digtron detecta um bloco não escavável pelo item que seria produzido ao escavá-lo. Definir pedra britada (cobble) como o bloco de parada tornará tanto a pedra britada quanto a pedra comum não escaváveis, mas definir um bloco de pedra comum (produzida a partir da pedra britada em uma fornalha) como o bloco de parada *não* impedirá um Digtron de escavar pedra comum (já que escavar pedra comum produz pedra britada, não pedra)."
+
+#: doc.lua:105
+msgid ""
+"A simplified controller that merely moves a Digtron around without "
+"triggering its builder or digger modules"
+msgstr ""
+"Um controlador simplificado que apenas move o Digtron sem acionar seus "
+"módulos construtores ou escavadores."
+
+#: doc.lua:106
+msgid ""
+"Aka the \"can you rebuild it six inches to the left\" module. This is a much simplified control module that does not trigger the digger or builder heads when right-clicked, it only moves the digging machine. It's up to you to ensure there's space for it to move into.\n"
+"\n"
+"Since movement alone does not require fuel, a pusher module has no internal furnace. Pushers also don't require traction, since their primary purpose is repositioning Digtrons let's say they have a built-in crane or something."
+msgstr ""
+"Também conhecido como o módulo \"você pode reconstruir isso quinze centímetros para a esquerda\". Este é um módulo de controle simplificado que não aciona as cabeças escavadoras ou construtoras ao ser clicado; ele apenas move a máquina. Cabe a você garantir que haja espaço para ela se mover.\n"
+"\n"
+"Como o movimento por si só não requer combustível, um módulo empurrador não possui fornalha interna. Empurradores também não precisam de tração; como seu propósito principal é o reposicionamento de Digtrons, digamos que eles tenham um guindaste embutido ou algo assim."
+
+#: doc.lua:108
+msgid "A device that allows one to rotate their Digtron into new orientations"
+msgstr "Um dispositivo que permite rotacionar o Digtron em novas orientações."
+
+#: doc.lua:109
+msgid ""
+"This magical module can rotate a Digtron array in place around itself. "
+"Right-clicking on it will rotate the Digtron 90 degrees in the direction the"
+" orange arrows on its sides indicate (widdershins around the Y axis by "
+"default, use the screwdriver to change this) assuming there's space for the "
+"Digtron in its new orientation. Builders and diggers will not trigger on "
+"rotation."
+msgstr ""
+"Este módulo mágico pode rotacionar um conjunto de Digtron no lugar em torno "
+"de si mesmo. Clicar com o botão direito nele rotacionará o Digtron 90 graus "
+"na direção que as setas laranjas em suas laterais indicam (sentido anti-"
+"horário em torno do eixo Y por padrão, use a chave de fenda para alterar "
+"isso), assumindo que haja espaço para o Digtron em sua nova orientação. "
+"Construtores e escavadeiras não serão acionados na rotação."
+
+#: doc.lua:113
+msgid "A standard Digtron digger head"
+msgstr "Uma cabeça escavadora padrão do Digtron."
+
+#: doc.lua:114
+msgid ""
+"Facing of a digger head is significant; it will excavate material from the "
+"block on the spinning grinder wheel face of the digger head. Generally "
+"speaking, you'll want these to face forward - though having them aimed to "
+"the sides can also be useful."
+msgstr ""
+"A orientação de uma cabeça escavadora é importante; ela escavará o material "
+"do bloco na face do disco de moagem giratório da cabeça escavadora. De modo "
+"geral, você vai querer que elas fiquem voltadas para frente — embora tê-las "
+"apontadas para os lados também possa ser útil."
+
+#: doc.lua:116
+msgid "Two standard Digtron digger heads merged at 90 degrees to each other"
+msgstr ""
+"Duas cabeças escavadoras padrão do Digtron fundidas a 90 graus uma da outra."
+
+#: doc.lua:117
+msgid ""
+"This digger head is mainly of use when you want to build a Digtron capable of digging diagonal paths. A normal one-direction dig head would be unable to clear blocks in both of the directions it would be called upon to move, resulting in a stuck Digtron.\n"
+"\n"
+"One can also make use of dual dig heads to simplify the size and layout of a Digtron, though this is generally not of practical use."
+msgstr ""
+"Esta cabeça escavadora é útil principalmente quando você deseja construir um Digtron capaz de escavar caminhos diagonais. Uma cabeça de escavação unidirecional normal seria incapaz de limpar blocos em ambas as direções para as quais seria chamada a se mover, resultando em um Digtron preso.\n"
+"\n"
+"Também é possível usar cabeças de escavação duplas para simplificar o tamanho e o layout de um Digtron, embora isso geralmente não tenha uso prático."
+
+#: doc.lua:119
+msgid ""
+"Two standard soft-material Digtron digger heads merged at 90 degrees to each"
+" other"
+msgstr ""
+"Duas cabeças escavadoras padrão para materiais macios do Digtron fundidas a "
+"90 graus uma da outra."
+
+#: doc.lua:120
+msgid ""
+"This digger head is mainly of use when you want to build a Digtron capable of digging diagonal paths. A normal one-direction dig head would be unable to clear blocks in both of the directions it would be called upon to move, resulting in a stuck Digtron.\n"
+"\n"
+"Like a normal single-direction soft digger head, this digger only excavates material belonging to groups softer than stone.\n"
+"\n"
+"One can make use of dual dig heads to simplify the size and layout of a Digtron."
+msgstr ""
+"Esta cabeça escavadora é útil principalmente quando você deseja construir um Digtron capaz de escavar caminhos diagonais. Uma cabeça de escavação unidirecional normal seria incapaz de limpar blocos em ambas as direções para as quais seria chamada a se mover, resultando em um Digtron preso.\n"
+"\n"
+"Como uma cabeça escavadora de material macio unidirecional normal, esta escavadeira só retira materiais pertencentes a grupos mais macios que a pedra.\n"
+"\n"
+"É possível usar cabeças de escavação duplas para simplificar o tamanho e o layout de um Digtron."
+
+#: doc.lua:122
+msgid "A standard Digtron digger head that only triggers periodically"
+msgstr ""
+"Uma cabeça escavadora padrão do Digtron que só é acionada periodicamente."
+
+#: doc.lua:123
+msgid ""
+"This is a standard digger head capable of digging any material, but it will "
+"only trigger periodically as the Digtron moves. This can be useful for "
+"punching regularly-spaced holes in a tunnel wall, for example."
+msgstr ""
+"Esta é uma cabeça escavadora padrão capaz de escavar qualquer material, mas "
+"só será acionada periodicamente conforme o Digtron se move. Isso pode ser "
+"útil para abrir buracos com espaçamento regular na parede de um túnel, por "
+"exemplo."
+
+#: doc.lua:125
+msgid ""
+"A standard soft-material Digtron digger head that only triggers periodically"
+msgstr ""
+"Uma cabeça escavadora padrão para materiais macios do Digtron que só é "
+"acionada periodicamente."
+
+#: doc.lua:126
+msgid ""
+"This is a standard soft-material digger head capable of digging any "
+"material, but it will only trigger periodically as the Digtron moves. This "
+"can be useful for punching regularly-spaced holes in a tunnel wall, for "
+"example."
+msgstr ""
+"Esta é uma cabeça escavadora padrão para materiais macios capaz de escavar "
+"qualquer material, mas só será acionada periodicamente conforme o Digtron se"
+" move. Isso pode ser útil para abrir buracos com espaçamento regular na "
+"parede de um túnel, por exemplo."
+
+#: doc.lua:128
+msgid "A Digtron digger head that only excavates soft materials"
+msgstr "Uma cabeça escavadora do Digtron que escava apenas materiais macios."
+
+#: doc.lua:129
+msgid ""
+"This specialized digger head is designed to excavate only softer material such as sand or gravel. In technical terms, this digger digs blocks belonging to the \"crumbly\", \"choppy\", \"snappy\", \"oddly_diggable_by_hand\" and \"fleshy\" groups.\n"
+"\n"
+"The intended purpose of this digger is to be aimed at the ceiling or walls of a tunnel being dug, making spaces to allow shoring blocks to be inserted into unstable roofs but leaving the wall alone if it's composed of a more stable material.\n"
+"\n"
+"It can also serve as part of a lawnmower or tree-harvester."
+msgstr ""
+"Esta cabeça escavadora especializada foi projetada para escavar apenas materiais mais macios, como areia ou cascalho. Em termos técnicos, ela escava blocos pertencentes aos grupos \"crumbly\", \"choppy\", \"snappy\", \"oddly_diggable_by_hand\" e \"fleshy\".\n"
+"\n"
+"O propósito pretendido desta escavadeira é ser apontada para o teto ou paredes de um túnel em escavação, criando espaço para que blocos de escoramento sejam inseridos em tetos instáveis, mas deixando a parede intacta se ela for composta por um material mais estável.\n"
+"\n"
+"Ela também pode servir como parte de um cortador de grama ou colhedor de árvores."
+
+#: doc.lua:133
+msgid ""
+"High-voltage power connector allowing a Digtron to be powered from a Technic"
+" power network."
+msgstr ""
+"Conector de energia de alta voltagem permitindo que um Digtron seja "
+"alimentado por uma rede elétrica Technic."
+
+#: doc.lua:134
+msgid ""
+"A power connector node automatically hooks into adjacent high-voltage (HV) power cables, but it must be configured to set how much power it will draw from the attached network. Right-click on the power connector to bring up a form that shows the current estimated maximum power usage of the Digtron the power connector is part of and a field where a power value can be entered. The estimated maximum power usage is the amount of power this Digtron will use in the worst case situation, with all of its digger heads digging the toughest material and all of its builder heads building a block simultaneously.\n"
+"\n"
+"You can set the power connector's usage lower than this, and if the Digtron is unable to get sufficient power from the network it will use on-board batteries or burnable fuel to make up the shortfall."
+msgstr ""
+"Um nó conector de energia se conecta automaticamente a cabos de alta voltagem (HV) adjacentes, mas deve ser configurado para definir quanta energia extrairá da rede conectada. Clique com o botão direito no conector para abrir uma interface que mostra o uso máximo de energia estimado do Digtron e um campo onde um valor de energia pode ser inserido. O uso máximo estimado é a quantidade de energia que este Digtron usará na pior situação possível, com todas as suas cabeças escavadoras cavando o material mais resistente e todos os seus construtores erguendo blocos simultaneamente.\n"
+"\n"
+"Você pode configurar o uso do conector abaixo desse valor e, se o Digtron não conseguir energia suficiente da rede, ele usará baterias internas ou combustível sólido para compensar o déficit."
+
+#: doc.lua:138
+msgid ""
+"An outlet that can be used to eject accumulated detritus from a Digtron's "
+"inventory."
+msgstr ""
+"Uma saída que pode ser usada para ejetar detritos acumulados do inventário "
+"de um Digtron."
+
+#: doc.lua:139
+msgid ""
+"When this block is punched it will search the entire inventory of the "
+"Digtron and will eject a stack of items taken from it, provided the items "
+"are not set for use by any of the Digtron's builders. It will not eject if "
+"the destination block is occupied."
+msgstr ""
+"Quando este bloco recebe um soco, ele buscará em todo o inventário do "
+"Digtron e ejetará uma pilha de itens dele, desde que os itens não estejam "
+"configurados para uso por nenhum dos construtores do Digtron. Ele não "
+"ejetará se o bloco de destino estiver ocupado."
+
+#: doc.lua:142
+msgid ""
+"@1\n"
+"\n"
+"Item ejectors are compatible with pipeworks and will automatically connect to a pipeworks tube if one is adjacent in the output location."
+msgstr ""
+"@1\n"
+"\n"
+"Ejetores de itens são compatíveis com o Pipeworks e se conectarão automaticamente a um tubo do Pipeworks se houver um adjacente no local de saída."
+
+#: doc.lua:147
+msgid ""
+"A device for duplicating an adjacent Digtron using parts from its inventory."
+msgstr ""
+"Um dispositivo para duplicar um Digtron adjacente usando peças de seu "
+"inventário."
+
+#: doc.lua:148
+msgid ""
+"Place the duplicator block adjacent to a Digtron, and then fill the "
+"duplicator's inventory with enough parts to recreate the adjacent Digtron. "
+"Then place an empty Digtron crate at the duplicator's output (the side with "
+"the black \"+\") and click the \"Duplicate\" button in the duplicator's "
+"right-click GUI. If enough parts are available the Digtron will be "
+"duplicated and packed into the crate, along with all of its programming but "
+"with empty inventories."
+msgstr ""
+"Coloque o bloco duplicador adjacente a um Digtron e, em seguida, encha o "
+"inventário do duplicador com peças suficientes para recriar o Digtron "
+"adjacente. Depois, coloque uma caixa de Digtron vazia na saída do duplicador"
+" (o lado com o \"+\" preto) e clique no botão \"Duplicar\" na interface "
+"(GUI) de clique direito do duplicador. Se houver peças suficientes "
+"disponíveis, o Digtron será duplicado e embalado na caixa, junto com toda a "
+"sua programação, mas com os inventários vazios."
+
+#: doc.lua:152
+msgid "Structural component for a Digtron array"
+msgstr "Componente estrutural para um conjunto de Digtron."
+
+#: doc.lua:153
+msgid ""
+"These blocks allow otherwise-disconnected sections of digtron blocks to be linked together. They are not usually necessary for simple diggers but more elaborate builder arrays might have builder blocks that can't be placed directly adjacent to other digtron blocks and these blocks can serve to keep them connected to the controller.\n"
+"\n"
+"They may also be used for providing additional traction if your digtron array is very tall compared to the terrain surface that it's touching.\n"
+"\n"
+"You can also use them decoratively, or to build a platform to stand on as you ride your mighty mechanical leviathan through the landscape."
+msgstr ""
+"Estes blocos permitem que seções de blocos do Digtron, que de outra forma estariam desconectadas, sejam interligadas. Eles geralmente não são necessários para escavadeiras simples, mas conjuntos de construtores mais elaborados podem ter blocos construtores que não podem ser colocados diretamente adjacentes a outros blocos do Digtron; esses blocos podem servir para mantê-los conectados ao controlador.\n"
+"\n"
+"Eles também podem ser usados para fornecer tração adicional se o seu conjunto de Digtron for muito alto em comparação com a superfície do terreno em que está tocando.\n"
+"\n"
+"Você também pode usá-los decorativamente ou para construir uma plataforma para ficar de pé enquanto você pilota seu poderoso leviatã mecânico pela paisagem."
+
+#: doc.lua:155
+msgid "Digtron light source"
+msgstr "Fonte de luz do Digtron."
+
+#: doc.lua:156
+msgid ""
+"A light source that moves along with the digging machine. Convenient if "
+"you're digging a tunnel that you don't intend to outfit with torches or "
+"other permanent light fixtures. Not quite as bright as a torch since the "
+"protective lens tends to get grimy while burrowing through the earth."
+msgstr ""
+"Uma fonte de luz que se move junto com a máquina de escavação. Conveniente "
+"se você estiver cavando um túnel que não pretenda equipar com tochas ou "
+"outras luminárias permanentes. Não é tão brilhante quanto uma tocha, pois a "
+"lente protetora tende a ficar suja ao cavar a terra."
+
+#: doc.lua:158
+msgid "Digtron panel"
+msgstr "Painel do Digtron."
+
+#: doc.lua:159
+msgid ""
+"A structural panel that can be made part of a Digtron to provide shelter for"
+" an operator, keep sand out of the Digtron's innards, or just to look cool."
+msgstr ""
+"Um painel estrutural que pode fazer parte de um Digtron para fornecer abrigo"
+" para um operador, manter a areia longe das entranhas da máquina ou apenas "
+"para deixá-la com um visual estiloso."
+
+#: doc.lua:161
+msgid "Digtron edge panel"
+msgstr "Painel de borda do Digtron."
+
+#: doc.lua:162
+msgid ""
+"A pair of structural panels that can be made part of a Digtron to provide "
+"shelter for an operator, keep sand out of the Digtron's innards, or just to "
+"look cool."
+msgstr ""
+"Um par de painéis estruturais que podem fazer parte de um Digtron para "
+"fornecer abrigo para um operador, manter a areia longe das entranhas da "
+"máquina ou apenas para deixá-la com um visual estiloso."
+
+#: doc.lua:164
+msgid "Digtron corner panel"
+msgstr "Painel de canto do Digtron."
+
+#: doc.lua:165
+msgid ""
+"A trio of structural panels that can be made part of a Digtron to provide "
+"shelter for an operator, keep sand out of the Digtron's innards, or just to "
+"look cool."
+msgstr ""
+"Um trio de painéis estruturais que podem fazer parte de um Digtron para "
+"fornecer abrigo para um operador, manter a areia longe das entranhas da "
+"máquina ou apenas para deixá-la com um visual estiloso."
+
+#: doc.lua:169
+msgid "Digtron"
+msgstr "Digtron"
+
+#: doc.lua:170
+msgid ""
+"The Digtron system is a set of blocks used to construct tunnel-boring and "
+"construction machines."
+msgstr ""
+"O sistema Digtron é um conjunto de blocos usados para construir máquinas de "
+"perfuração de túneis e construção."
+
+#: doc.lua:177
+msgid "Summary"
+msgstr "Resumo"
+
+#: doc.lua:178
+msgid ""
+"Digtron blocks can be used to construct highly customizable and modular tunnel-boring machines, bridge-builders, road-pavers, wall-o-matics, and other such construction/destruction contraptions.\n"
+"\n"
+"The basic blocks that can be assembled into a functioning digging machine are:\n"
+"\n"
+"* Diggers, which excavate material in front of them when the machine is triggered\n"
+"* Builders, which build a user-configured block in front of them\n"
+"* Inventory modules, which hold material produced by the digger and provide material to the builders\n"
+"* Control block, used to trigger the machine and move it in a particular direction.\n"
+"\n"
+"A digging machine's components must be connected to the control block via a path leading through the faces of the blocks - diagonal connections across edges and corners don't count."
+msgstr ""
+"Os blocos do Digtron podem ser usados para construir máquinas perfuradoras de túneis, construtores de pontes, pavimentadores de estradas, \"muro-máticos\" e outras engenhocas de construção/destruição altamente personalizáveis e modulares.\n"
+"\n"
+"Os blocos básicos que podem ser montados em uma máquina de escavação funcional são:\n"
+"\n"
+"* Escavadores, que escavam o material à sua frente quando a máquina é acionada\n"
+"* Construtores, que constroem um bloco configurado pelo usuário à sua frente\n"
+"* Módulos de inventário, que guardam o material produzido pelo escavador e fornecem material para os construtores\n"
+"* Bloco de controle, usado para acionar a máquina e movê-la em uma direção específica.\n"
+"\n"
+"Os componentes de uma máquina de escavação devem estar conectados ao bloco de controle através das faces dos blocos — conexões diagonais por arestas ou cantos não contam."
+
+#: doc.lua:182
+msgid "Concepts"
+msgstr "Conceitos"
+
+#: doc.lua:184
+msgid ""
+"Several general concepts are important when building more sophisticated diggers.\n"
+"\n"
+"Facing - a number between 0-23 that determines which direction a block is facing and what orientation it has. Not all blocks make use of facing (basic blocks such as cobble or sand have no facing, for example) so it's not always necessary to set this when configuring a builder head. The facing of already-placed blocks can be altered through the use of the screwdriver tool.\n"
+"\n"
+"Period - Builder and digger heads can be made periodic by changing the period value to something other than 1. This determines how frequently they trigger. A period of 1 triggers on every block, a period of 2 triggers once every second block, a period of 3 triggers once every third block, etc. These are useful when setting up a machine to place regularly-spaced features as it goes. For example, you could have a builder head that places a torch every 8 steps, or a digger block that punches a landing in the side of a vertical stairwell at every level.\n"
+"\n"
+"Offset - The location at which a periodic module triggers is globally uniform. This is handy if you want to line up the blocks you're building (for example, placing pillars and a crosspiece every 4 blocks in a tunnel, or punching alcoves in a wall to place glass windows). If you wish to change how the pattern lines up, modify the \"offset\" setting.\n"
+"\n"
+"Shift-right-clicking - since most of the blocks of the digging machine have control screens associated with right-clicking, building additional blocks on top of them or rotating them with the screwdriver requires the shift key to be held down when right-clicking on them.\n"
+"\n"
+"Traction - Digtrons cannot fly. By default, they need to be touching one block of solid ground for every three blocks of Digtron in order to move. Digtrons can fall, though - traction is never needed when a Digtron is moving downward. \"Pusher\" controllers can ignore the need for traction when moving in any direction."
+msgstr ""
+"Vários conceitos gerais são importantes ao construir escavadores mais sofisticados.\n"
+"\n"
+"Orientação (Facing) - um número entre 0-23 que determina para qual direção um bloco está voltado e qual sua posição. Nem todos os blocos utilizam orientação (blocos básicos como pedra britada ou areia não possuem orientação, por exemplo), então nem sempre é necessário configurar isso em uma cabeça construtora. A orientação de blocos já colocados pode ser alterada usando a chave de fenda.\n"
+"\n"
+"Período - Cabeças construtoras e escavadoras podem se tornar periódicas ao alterar o valor do período para algo diferente de 1. Isso determina a frequência com que elas são acionadas. Um período de 1 aciona em cada bloco, um período de 2 aciona a cada dois blocos, um período de 3 aciona a cada três blocos, etc. Isso é útil para configurar uma máquina para colocar elementos com espaçamento regular enquanto avança. Por exemplo, você pode ter um construtor que coloca uma tocha a cada 8 passos, ou um bloco escavador que cria um patamar na lateral de uma escada vertical em cada nível.\n"
+"\n"
+"Deslocamento (Offset) - O local onde um módulo periódico é acionado é globalmente uniforme. Isso é prático se você quiser alinhar os blocos que está construindo (por exemplo, colocar pilares a cada 4 blocos em um túnel ou abrir nichos em uma parede para colocar janelas de vidro). Se desejar alterar como o padrão se alinha, modifique a configuração de \"deslocamento\".\n"
+"\n"
+"Shift + clique direito - como a maioria dos blocos possui telas de controle associadas ao clique direito, para construir blocos sobre eles ou rotacioná-los com a chave de fenda é necessário segurar a tecla Shift ao clicar.\n"
+"\n"
+"Traction (Tração) - Digtrons não voam. Por padrão, eles precisam tocar um bloco de chão sólido para cada três blocos de Digtron para poderem se mover. No entanto, eles podem cair — a tração nunca é necessária quando um Digtron se move para baixo. Controladores \"Empurradores\" (Pusher) podem ignorar a necessidade de tração ao se mover em qualquer direção."
+
+#: doc.lua:188
+msgid "Audio cues"
+msgstr "Sinais sonoros"
+
+#: doc.lua:190
+msgid ""
+"When a digging machine is unable to complete a cycle it will make one of several noises to indicate what the problem is. It will also set its mouseover text to explain what went wrong.\n"
+"\n"
+"Squealing traction wheels indicates a mobility problem. If the squealing is accompanied by a buzzer, the digging machine has encountered an obstruction it can't dig through. This could be a protected region (the digging machine has only the priviledges of the player triggering it), a chest containing items, or perhaps the digger was incorrectly designed and can't dig the correctly sized and shaped cavity for it to move forward into. There are many possibilities.\n"
+"\n"
+"Squealing traction wheels with no accompanying buzzer indicates that the digging machine doesn't have enough solid adjacent blocks to push off of. Tunnel boring machines cannot fly or swim, not even through lava, and they don't dig fast enough to \"catch sick air\" when they emerge from a cliffside. If you wish to cross a chasm you'll need to ensure that there are builder heads placing a solid surface as you go. If you've built a very tall digtron with a small surface footprint you may need to improve its traction by adding structural modules that touch the ground.\n"
+"\n"
+"A buzzer by itself indicates that the Digtron has run out of fuel. There may be traces remaining in the hopper, but they're not enough to execute the next dig/build cycle.\n"
+"\n"
+"A ringing bell indicates that there are insufficient materials in inventory to supply all the builder heads for this cycle.\n"
+"\n"
+"A short high-pitched honk means that one or more of the builder heads don't have an item set. A common oversight, especially with large and elaborate digging machines, that might be hard to notice and annoying to fix if not noticed right away.\n"
+"\n"
+"Splashing water sounds means your Digtron is digging adjacent to (or through) water-containing blocks. Digtrons are waterproof, but this might be a useful indication that you should take care when installing doors in the tunnel walls you've placed here.\n"
+"\n"
+"A triple \"voop voop voop!\" alarm indicates that there is lava adjacent to your Digtron. Digtrons can't penetrate lava by default, and this alarm indicates that a non-lava-proof Digtron operator may wish to exercise caution when opening the door to clear the obstruction."
+msgstr ""
+"Quando uma máquina de escavação não consegue completar um ciclo, ela emitirá um de vários sons para indicar o problema. Ela também alterará o texto de descrição (mouseover) para explicar o que deu errado.\n"
+"\n"
+"Rodas de tração chiando indicam um problema de mobilidade. Se o chiado for acompanhado por um zumbido, a máquina encontrou uma obstrução que não pode escavar. Isso pode ser uma área protegida (a máquina tem apenas os privilégios do jogador que a acionou), um baú contendo itens, ou talvez a escavadeira foi projetada incorretamente e não consegue cavar uma cavidade com tamanho e forma adequados para avançar. Há muitas possibilidades.\n"
+"\n"
+"Rodas chiando sem o zumbido indicam que a máquina não tem blocos sólidos adjacentes suficientes para se impulsionar. Máquinas de perfuração não voam nem nadam, nem mesmo através da lava, e não escavam rápido o suficiente para \"saltar\" ao emergir de um penhasco. Se desejar cruzar um abismo, você precisará garantir que existam construtores colocando uma superfície sólida conforme você avança. Se você construiu um Digtron muito alto com pouca base, pode precisar melhorar a tração adicionando módulos estruturais que toquem o solo.\n"
+"\n"
+"Um zumbido sozinho indica que o Digtron ficou sem combustível. Pode haver vestígios no depósito, mas não o suficiente para executar o próximo ciclo.\n"
+"\n"
+"Um sino tocando indica que não há materiais suficientes no inventário para suprir todos os construtores neste ciclo.\n"
+"\n"
+"Uma buzina curta e aguda significa que um ou mais construtores não têm um item configurado. Um esquecimento comum, especialmente em máquinas grandes, que pode ser difícil de notar e chato de consertar se não for percebido logo.\n"
+"\n"
+"Som de água espirrando significa que seu Digtron está escavando adjacente a (ou através de) blocos com água. Digtrons são à prova d'água, mas isso é um aviso útil para ter cuidado ao instalar portas nas paredes do túnel que você acabou de criar.\n"
+"\n"
+"Um alarme triplo \"voop voop voop!\" indica que há lava adjacente ao seu Digtron. Digtrons não penetram lava por padrão, e este alarme indica que o operador deve ter cautela ao abrir portas para remover obstruções."
+
+#: doc.lua:194
+msgid "Tips and Tricks"
+msgstr "Dicas e Truques"
+
+#: doc.lua:196
+msgid ""
+"To more easily visualize the operation of a Digtron, imagine that its cycle of operation follows these steps in order:\n"
+"\n"
+"* Dig\n"
+"* Move\n"
+"* Build\n"
+"* Allow dust to settle (ie, sand and gravel fall)\n"
+"\n"
+"If you're building a repeating pattern of blocks, your periodicity should be one larger than your largest offset. For example, if you've laid out builders to create a set of spiral stairs and the offsets are from 0 to 11, you'll want to use periodicity 12.\n"
+"\n"
+"A good way to program a set of builders is to build a complete example of the structure you want them to create, then place builders against the structure and have them \"read\" all of its facings. This also lets you more easily visualize the tricks that might be needed to allow the digtron to pass through the structure as it's being built."
+msgstr ""
+"Para visualizar melhor a operação de um Digtron, imagine que seu ciclo segue estes passos em ordem:\n"
+"\n"
+"* Escavar\n"
+"* Mover\n"
+"* Construir\n"
+"* Deixar a poeira baixar (ex: areia e cascalho caírem)\n"
+"\n"
+"Se você estiver construindo um padrão repetitivo, seu período deve ser um valor maior que o seu maior deslocamento (offset). Por exemplo, se você configurou construtores para criar uma escada em espiral e os deslocamentos vão de 0 a 11, você deve usar período 12.\n"
+"\n"
+"Uma boa maneira de programar construtores é construir um exemplo completo da estrutura desejada, colocar os construtores contra ela e usar a função de \"ler\" todas as orientações. Isso também facilita visualizar os ajustes necessários para permitir que o Digtron passe pela estrutura enquanto ela é construída."
+
+#: init.lua:13
+msgid ""
+"[digtron] Your Luanti/Minetest version is too old. Please update to 5.5.0 or"
+" newer."
+msgstr ""
+"[digtron] Sua versão do Luanti/Minetest é muito antiga. Por favor, atualize "
+"para 5.5.0 ou superior."
+
+#: init.lua:22
+msgid ""
+"[digtron] Your Minetest Game (default mod) version seems very old. Digtron "
+"may not work correctly. Please consider updating to a current version."
+msgstr ""
+"[digtron] Sua versão do Minetest Game (mod default) parece muito antiga. O "
+"Digtron pode não funcionar corretamente. Por favor, considere atualizar para"
+" uma versão atual."
+
+#: util_execute_cycle.lua:52
+msgid ""
+"Digtron is adjacent to unloaded nodes.\n"
+"@1"
+msgstr ""
+"Digtron está adjacente a nós não carregados.\n"
+"@1"
+
+#: util_execute_cycle.lua:66
+msgid ""
+"Digtron has @1 blocks but only enough traction to move @2 blocks.\n"
+"@3"
+msgstr ""
+"Digtron possui @1 blocos, mas tração suficiente para mover apenas @2 blocos.\n"
+"@3"
+
+#: util_execute_cycle.lua:100
+msgid "Size limit of @1 reached with @2 nodes!"
+msgstr "Limite de tamanho de @1 atingido com @2 nós!"
+
+#: util_execute_cycle.lua:134 util_execute_cycle.lua:499
+#: nodes/node_controllers.lua:53 nodes/node_controllers.lua:228
+msgid "Heat remaining in controller furnace: @1"
+msgstr "Calor restante na fornalha do controlador: @1"
+
+#: util_execute_cycle.lua:177 util_execute_cycle.lua:543
+msgid ""
+"@1 has digger group but is missing execute_dig method! This is an error in "
+"mod programming, file a bug."
+msgstr ""
+"@1 possui o grupo escavador (digger), mas falta o método execute_dig! Isto é"
+" um erro de programação do mod, reporte o bug."
+
+#: util_execute_cycle.lua:204 util_execute_cycle.lua:469
+#: util_execute_cycle.lua:570
+msgid ""
+"Digtron is obstructed.\n"
+"@1"
+msgstr ""
+"Digtron está obstruído.\n"
+"@1"
+
+#: util_execute_cycle.lua:236
+msgid ""
+"@1 has builder group but is missing test_build method! This is an error in "
+"mod programming, file a bug."
+msgstr ""
+"@1 possui o grupo construtor (builder), mas falta o método test_build! Isto "
+"é um erro de programação do mod, reporte o erro."
+
+#: util_execute_cycle.lua:293
+msgid "Digtron needs more fuel."
+msgstr "Digtron precisa de mais combustível."
+
+#: util_execute_cycle.lua:303
+msgid ""
+"Digtron connected to at least one builder with no output material "
+"assigned.\n"
+msgstr ""
+"Digtron conectado a pelo menos um construtor sem material de saída "
+"atribuído.\n"
+
+#: util_execute_cycle.lua:308
+msgid "Digtron has insufficient building materials. Needed: @1\n"
+msgstr "Digtron possui materiais de construção insuficientes. Necessário: @1\n"
+
+#: util_execute_cycle.lua:370
+msgid ""
+"@1 has builder group but is missing execute_build method! This is an error "
+"in mod programming, file a bug."
+msgstr ""
+"@1 possui o grupo construtor (builder), mas falta o método execute_build! "
+"Isto é um erro de programação do mod, reporte o erro."
+
+#: util_execute_cycle.lua:382
+msgid ""
+"@1 has an ejector group but is missing execute_eject method! This is an "
+"error in mod programming, file a bug."
+msgstr ""
+"@1 possui um grupo ejetor, mas falta o método execute_eject! Isto é um erro "
+"de programação do mod, reporte o erro."
+
+#: util_execute_cycle.lua:392
+msgid ""
+"Digtron unexpectedly failed to execute one or more build operations, likely "
+"due to an inventory error.\n"
+msgstr ""
+"Digtron falhou inesperadamente ao executar uma ou mais operações de "
+"construção, provavelmente devido a um erro de inventário.\n"
+
+#: util_execute_cycle.lua:413 util_execute_cycle.lua:628
+msgid "@1Heat remaining in controller furnace: @2"
+msgstr "@1Calor restante na fornalha do controlador: @2"
+
+#: util_execute_cycle.lua:426 util_execute_cycle.lua:641
+msgid "@1 uses Digtron to dig @2 at (@3, @4, @5)"
+msgstr "@1 usa Digtron para escavar @2 em (@3, @4, @5)"
+
+#: util_item_place_node.lua:131
+msgid "@1 tried to place node in unloaded position @2 using a digtron."
+msgstr ""
+"@1 tentou colocar um nó em uma posição não carregada @2 usando um Digtron."
+
+#: util_item_place_node.lua:143
+msgid "attached node @1 can not be placed at @2"
+msgstr "O nó anexado @1 não pode ser colocado em @2"
+
+#: util.lua:71
+msgid "Digtron encountered unknown node @1 at (@2, @3, @4), not digging"
+msgstr ""
+"Digtron encontrou um nó desconhecido @1 em (@2, @3, @4), não escavando."
+
+#: nodes/node_axle.lua:7
+msgid "Digtron Rotation Axle"
+msgstr "Eixo de Rotação do Digtron"
+
+#: nodes/node_axle.lua:53 nodes/node_controllers.lua:68
+msgid "repetition delay"
+msgstr "atraso de repetição"
+
+#: nodes/node_axle.lua:77
+msgid "Digtron is obstructed."
+msgstr "Digtron está obstruído."
+
+#: nodes/node_battery_holder.lua:14
+msgid "Batteries"
+msgstr "Baterias"
+
+#: nodes/node_battery_holder.lua:34
+msgid "Digtron Battery Holder"
+msgstr "Suporte de Baterias do Digtron"
+
+#: nodes/node_builders.lua:23
+msgid "Block to build"
+msgstr "Bloco para construir"
+
+#: nodes/node_builders.lua:24
+msgid "Extrusion"
+msgstr "Extrusão"
+
+#: nodes/node_builders.lua:25
+msgid ""
+"Builder will extrude this many blocks in the direction it is facing.\n"
+"Can be set from 1 to @1.\n"
+"Note that Digtron won't build into unloaded map regions."
+msgstr ""
+"O construtor fará a extrusão desta quantidade de blocos na direção para a qual está voltado.\n"
+"Pode ser configurado de 1 a @1.\n"
+"Note que o Digtron não construirá em regiões do mapa não carregadas."
+
+#: nodes/node_builders.lua:27 nodes/node_diggers.lua:37
+msgid "Periodicity"
+msgstr "Periodicidade"
+
+#: nodes/node_builders.lua:28
+msgid ""
+"Builder will build once every n steps.\n"
+"These steps are globally aligned, so all builders with the\n"
+"same period and offset will build on the same location."
+msgstr ""
+"O construtor construirá uma vez a cada n passos.\n"
+"Esses passos são alinhados globalmente, de modo que todos os construtores com o\n"
+"mesmo período e deslocamento construirão no mesmo local."
+
+#: nodes/node_builders.lua:29 nodes/node_controllers.lua:110
+#: nodes/node_diggers.lua:39
+msgid "Offset"
+msgstr "Deslocamento"
+
+#: nodes/node_builders.lua:30
+msgid ""
+"Offsets the start of periodicity counting by this amount.\n"
+"For example, a builder with period 2 and offset 0 builds\n"
+"every even-numbered block and one with period 2 and\n"
+"offset 1 builds every odd-numbered block."
+msgstr ""
+"Desloca o início da contagem da periodicidade por este valor.\n"
+"Por exemplo, um construtor com período 2 e deslocamento 0 constrói\n"
+"em cada bloco de número par, e um com período 2 e\n"
+"deslocamento 1 constrói em cada bloco de número ímpar."
+
+#: nodes/node_builders.lua:32 nodes/node_diggers.lua:42
+msgid ""
+"Save &\n"
+"Show"
+msgstr ""
+"Salvar &\n"
+"Mostrar"
+
+#: nodes/node_builders.lua:33 nodes/node_diggers.lua:43
+msgid "Saves settings"
+msgstr "Salva as configurações"
+
+#: nodes/node_builders.lua:34
+msgid "Facing"
+msgstr "Orientação"
+
+#: nodes/node_builders.lua:35
+msgid ""
+"Value from 0-23. Not all block types make use of this.\n"
+"Use the 'Read & Save' button to copy the facing of the block\n"
+"currently in the builder output location."
+msgstr ""
+"Valor de 0 a 23. Nem todos os tipos de blocos fazem uso disso.\n"
+"Use o botão 'Ler e Salvar' para copiar a orientação do bloco\n"
+"atualmente no local de saída do construtor."
+
+#: nodes/node_builders.lua:37
+msgid ""
+"Read &\n"
+"Save"
+msgstr ""
+"Ler &\n"
+"Salvar"
+
+#: nodes/node_builders.lua:38
+msgid ""
+"Reads the facing of the block currently in the build location,\n"
+"then saves all settings."
+msgstr ""
+"Lê a orientação do bloco atualmente no local de construção\n"
+"e então salva todas as configurações."
+
+#: nodes/node_builders.lua:47 nodes/node_controllers.lua:126
+#: nodes/node_crate.lua:175 nodes/node_diggers.lua:47
+#: nodes/node_duplicator.lua:23 nodes/node_item_ejector.lua:18
+msgid "Help"
+msgstr "Ajuda"
+
+#: nodes/node_builders.lua:48 nodes/node_controllers.lua:127
+#: nodes/node_crate.lua:176 nodes/node_diggers.lua:48
+#: nodes/node_duplicator.lua:24 nodes/node_item_ejector.lua:19
+msgid "Show documentation about this block"
+msgstr "Mostrar documentação sobre este bloco"
+
+#: nodes/node_builders.lua:213
+msgid "Digtron Builder Module"
+msgstr "Módulo Construtor do Digtron"
+
+#: nodes/node_builders.lua:424 nodes/node_builders.lua:440
+msgid "@1 uses Digtron to build @2 at (@3, @4, @5), displacing @6"
+msgstr "@1 usa Digtron para construir @2 em (@3, @4, @5), deslocando @6"
+
+#: nodes/node_builders.lua:468
+msgid "Digtron Master Builder Module"
+msgstr "Módulo Construtor Mestre do Digtron"
+
+#: nodes/node_controllers.lua:25
+msgid "Digtron Control Module"
+msgstr "Módulo de Controle do Digtron"
+
+#: nodes/node_controllers.lua:100
+msgid "Cycles"
+msgstr "Ciclos"
+
+#: nodes/node_controllers.lua:101
+msgid ""
+"When triggered, this controller will try to run for the given number of cycles.\n"
+"The cycle count will decrement as it runs, so if it gets halted by a problem\n"
+"you can fix the problem and restart."
+msgstr ""
+"Quando acionado, este controlador tentará rodar pelo número de ciclos informado.\n"
+"A contagem de ciclos diminuirá enquanto ele roda, então se for interrompido por um problema,\n"
+"você poderá corrigi-lo e reiniciar."
+
+#: nodes/node_controllers.lua:103
+msgid "Set"
+msgstr "Definir"
+
+#: nodes/node_controllers.lua:104
+msgid "Saves the cycle setting without starting the controller running"
+msgstr "Salva a configuração de ciclos sem iniciar a execução do controlador"
+
+#: nodes/node_controllers.lua:105
+msgid ""
+"Set &\n"
+"Execute"
+msgstr ""
+"Definir &\n"
+"Executar"
+
+#: nodes/node_controllers.lua:106
+msgid "Begins executing the given number of cycles"
+msgstr "Começa a executar o número de ciclos informado"
+
+#: nodes/node_controllers.lua:107
+msgid "Slope"
+msgstr "Inclinação"
+
+#: nodes/node_controllers.lua:108
+msgid ""
+"For diagonal digging. After moving forward this number of nodes the auto controller\n"
+"will add an additional cycle moving the digtron laterally in the\n"
+"direction of the arrows on the side of this controller.\n"
+"Set to 0 for no lateral digging."
+msgstr ""
+"Para escavação diagonal. Após avançar este número de nós, o controlador automático\n"
+"adicionará um ciclo adicional movendo o Digtron lateralmente na\n"
+"direção das setas na lateral deste controlador.\n"
+"Defina como 0 para não haver escavação lateral."
+
+#: nodes/node_controllers.lua:111
+msgid ""
+"Sets the offset of the lateral motion defined in the Slope field.\n"
+"Note: this offset is relative to the controller's location.\n"
+"The controller will move laterally when it reaches the indicated point."
+msgstr ""
+"Define o deslocamento do movimento lateral definido no campo Inclinação.\n"
+"Nota: este deslocamento é relativo à localização do controlador.\n"
+"O controlador se moverá lateralmente quando atingir o ponto indicado."
+
+#: nodes/node_controllers.lua:113
+msgid "Delay"
+msgstr "Atraso"
+
+#: nodes/node_controllers.lua:114
+msgid "Number of seconds to wait between each cycle"
+msgstr "Número de segundos de espera entre cada ciclo"
+
+#: nodes/node_controllers.lua:116
+msgid "Stop block"
+msgstr "Bloco de parada"
+
+#: nodes/node_controllers.lua:147 nodes/node_controllers.lua:169
+msgid ""
+"@1\n"
+"Cycles remaining: @2\n"
+"Halted!"
+msgstr ""
+"@1\n"
+"Ciclos restantes: @2\n"
+"Parado!"
+
+#: nodes/node_controllers.lua:185
+msgid ""
+"@1\n"
+"Cycles remaining: @2"
+msgstr ""
+"@1\n"
+"Ciclos restantes: @2"
+
+#: nodes/node_controllers.lua:197
+msgid "Digtron Automatic Control Module"
+msgstr "Módulo de Controle Automático do Digtron"
+
+#: nodes/node_controllers.lua:318
+msgid ""
+"@1\n"
+"Interrupted!"
+msgstr ""
+"@1\n"
+"Interrompido!"
+
+#: nodes/node_controllers.lua:329
+msgid "Digtron Pusher Module"
+msgstr "Módulo Empurrador do Digtron"
+
+#: nodes/node_crate.lua:31 nodes/node_crate.lua:148
+msgid ""
+"Digtron Crate\n"
+"Owned by @1"
+msgstr ""
+"Caixa de Digtron\n"
+"Pertence a @1"
+
+#: nodes/node_crate.lua:32
+msgid "Owned by @1"
+msgstr "Pertence a @1"
+
+#: nodes/node_crate.lua:38
+msgid ""
+"@1\n"
+"Digtron can't be packaged, it contains protected blocks"
+msgstr ""
+"@1\n"
+"O Digtron não pode ser empacotado, pois contém blocos protegidos"
+
+#: nodes/node_crate.lua:46
+msgid ""
+"@1\n"
+"No Digtron components adjacent to package"
+msgstr ""
+"@1\n"
+"Nenhum componente Digtron adjacente para empacotar"
+
+#: nodes/node_crate.lua:89 nodes/node_duplicator.lua:205
+msgid "Crated @1-block Digtron"
+msgstr "Digtron de @1 blocos encaixotado"
+
+#: nodes/node_crate.lua:97
+msgid "Digtron Crate (Empty)"
+msgstr "Caixa de Digtron (Vazia)"
+
+#: nodes/node_crate.lua:124
+msgid "Digtron Locked Crate (Empty)"
+msgstr "Caixa Trancada de Digtron (Vazia)"
+
+#: nodes/node_crate.lua:168 nodes/node_crate.lua:183
+msgid "Digtron Name"
+msgstr "Nome do Digtron"
+
+#: nodes/node_crate.lua:169 nodes/node_crate.lua:184
+msgid ""
+"Save\n"
+"Title"
+msgstr ""
+"Salvar\n"
+"Título"
+
+#: nodes/node_crate.lua:170 nodes/node_crate.lua:185
+msgid "Saves the title of this Digtron"
+msgstr "Salva o título deste Digtron"
+
+#: nodes/node_crate.lua:171 nodes/node_crate.lua:186
+msgid ""
+"Show\n"
+"Blocks"
+msgstr ""
+"Mostrar\n"
+"Blocos"
+
+#: nodes/node_crate.lua:172 nodes/node_crate.lua:187
+msgid "Shows which blocks the packed Digtron will occupy if unpacked"
+msgstr "Mostra quais blocos o Digtron empacotado ocupará se for desempacotado"
+
+#: nodes/node_crate.lua:173 nodes/node_crate.lua:188
+msgid "Unpack"
+msgstr "Desempacotar"
+
+#: nodes/node_crate.lua:174 nodes/node_crate.lua:189
+msgid "Attempts to unpack the Digtron on this location"
+msgstr "Tenta desempacotar o Digtron neste local"
+
+#: nodes/node_crate.lua:206 nodes/node_crate.lua:384
+msgid ""
+"@1\n"
+"Owned by @2"
+msgstr ""
+"@1\n"
+"Pertence a @2"
+
+#: nodes/node_crate.lua:224
+msgid ""
+"@1\n"
+"Unable to read layout from crate metadata, regrettably this Digtron may be corrupted."
+msgstr ""
+"@1\n"
+"Não foi possível ler o layout dos metadados da caixa; infelizmente, este Digtron pode estar corrompido."
+
+#: nodes/node_crate.lua:255
+msgid ""
+"@1\n"
+"Unable to deploy Digtron due to protected blocks in target area"
+msgstr ""
+"@1\n"
+"Não foi possível implantar o Digtron devido a blocos protegidos na área alvo"
+
+#: nodes/node_crate.lua:261
+msgid ""
+"@1\n"
+"Unable to deploy Digtron due to obstruction in target area"
+msgstr ""
+"@1\n"
+"Não foi possível implantar o Digtron devido a uma obstrução na área alvo"
+
+#: nodes/node_crate.lua:320
+msgid "Digtron Crate (Loaded)"
+msgstr "Caixa de Digtron (Carregada)"
+
+#: nodes/node_crate.lua:352
+msgid "Digtron Locked Crate (Loaded)"
+msgstr "Caixa Trancada de Digtron (Carregada)"
+
+#: nodes/node_diggers.lua:38
+msgid ""
+"Digger will dig once every n steps.\n"
+"These steps are globally aligned, all diggers with\n"
+"the same period and offset will dig on the same location."
+msgstr ""
+"O escavador cavará uma vez a cada n passos.\n"
+"Esses passos são alinhados globalmente, todos os escavadores com\n"
+"o mesmo período e deslocamento cavarão no mesmo local."
+
+#: nodes/node_diggers.lua:40
+msgid ""
+"Offsets the start of periodicity counting by this amount.\n"
+"For example, a digger with period 2 and offset 0 digs\n"
+"every even-numbered block and one with period 2 and\n"
+"offset 1 digs every odd-numbered block."
+msgstr ""
+"Desloca o início da contagem da periodicidade por este valor.\n"
+"Por exemplo, um escavador com período 2 e deslocamento 0 cava\n"
+"em cada bloco de número par, e um com período 2 e\n"
+"deslocamento 1 cava em cada bloco de número ímpar."
+
+#: nodes/node_diggers.lua:108
+msgid "Digtron Digger Head"
+msgstr "Cabeça Escavadora Digtron"
+
+#: nodes/node_diggers.lua:181
+msgid "Digtron Intermittent Digger Head"
+msgstr "Cabeça Escavadora Intermitente Digtron"
+
+#: nodes/node_diggers.lua:251
+msgid "Digtron Soft Material Digger Head"
+msgstr "Cabeça Escavadora para Material Macio Digtron"
+
+#: nodes/node_diggers.lua:306
+msgid "Digtron Intermittent Soft Material Digger Head"
+msgstr "Cabeça Escavadora Intermitente para Material Macio Digtron"
+
+#: nodes/node_diggers.lua:380
+msgid "Digtron Dual Digger Head"
+msgstr "Cabeça Escavadora Dupla Digtron"
+
+#: nodes/node_diggers.lua:464
+msgid "Digtron Dual Soft Material Digger Head"
+msgstr "Cabeça Escavadora Dupla para Material Macio Digtron"
+
+#: nodes/node_duplicator.lua:11
+msgid "Digtron components"
+msgstr "Componentes do Digtron"
+
+#: nodes/node_duplicator.lua:18
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: nodes/node_duplicator.lua:19
+msgid ""
+"Puts a copy of the adjacent Digtron into an empty crate\n"
+"located at the output side of the duplicator,\n"
+"using components from the duplicator's inventory."
+msgstr ""
+"Coloca uma cópia do Digtron adjacente em uma caixa vazia\n"
+"localizada no lado de saída do duplicador,\n"
+"usando componentes do inventário do duplicador."
+
+#: nodes/node_duplicator.lua:28
+msgid "Digtron Duplicator"
+msgstr "Duplicador de Digtron"
+
+#: nodes/node_duplicator.lua:115
+msgid "The empty locked crate needs to be owned by you."
+msgstr "A caixa trancada vazia precisa pertencer a você."
+
+#: nodes/node_duplicator.lua:122
+msgid "Needs an empty crate in output position to store duplicate"
+msgstr ""
+"Precisa de uma caixa vazia na posição de saída para armazenar a duplicata"
+
+#: nodes/node_duplicator.lua:130
+msgid "Digtron can't be duplicated, it contains protected blocks"
+msgstr "O Digtron não pode ser duplicado; ele contém blocos protegidos"
+
+#: nodes/node_duplicator.lua:136
+msgid "No Digtron components adjacent to duplicate"
+msgstr "Nenhum componente Digtron adjacente para duplicar"
+
+#: nodes/node_duplicator.lua:158
+msgid ""
+"Duplicator requires:\n"
+"@1"
+msgstr ""
+"O duplicador requer:\n"
+"@1"
+
+#: nodes/node_duplicator.lua:209
+msgid ""
+"\n"
+"Owned by @1"
+msgstr ""
+"\n"
+"Pertence a @1"
+
+#: nodes/node_item_ejector.lua:28
+msgid "Eject into world"
+msgstr "Ejetar para o mundo"
+
+#: nodes/node_item_ejector.lua:29
+msgid "When checked, will eject items even if there's no pipe to accept it"
+msgstr ""
+"Quando marcado, ejetará itens mesmo que não haja um cano para aceitá-los"
+
+#: nodes/node_item_ejector.lua:31
+msgid "Automatic"
+msgstr "Automático"
+
+#: nodes/node_item_ejector.lua:32
+msgid ""
+"When checked, will eject items automatically with every Digtron cycle.\n"
+"Item ejectors can always be operated manually by punching them."
+msgstr ""
+"Quando marcado, ejetará itens automaticamente a cada ciclo do Digtron.\n"
+"Ejetores de itens podem sempre ser operados manualmente batendo neles."
+
+#: nodes/node_item_ejector.lua:114
+msgid "Digtron Inventory Ejector"
+msgstr "Ejetor de Inventário Digtron"
+
+#: nodes/node_misc.lua:8
+msgid "Digtron Structure"
+msgstr "Estrutura do Digtron"
+
+#: nodes/node_misc.lua:41
+msgid "Digtron Light"
+msgstr "Luz do Digtron"
+
+#: nodes/node_misc.lua:63
+msgid "Digtron Panel"
+msgstr "Painel do Digtron"
+
+#: nodes/node_misc.lua:86
+msgid "Digtron Edge Panel"
+msgstr "Painel de Borda do Digtron"
+
+#: nodes/node_misc.lua:115
+msgid "Digtron Corner Panel"
+msgstr "Painel de Canto do Digtron"
+
+#: nodes/node_power_connector.lua:16
+msgid ""
+"Maximize\n"
+"Power"
+msgstr ""
+"Maximizar\n"
+"Energia"
+
+#: nodes/node_power_connector.lua:17
+msgid ""
+"Maximum Power\n"
+"Required: @1"
+msgstr ""
+"Energia Máxima\n"
+"Necessária: @1"
+
+#: nodes/node_power_connector.lua:18
+msgid ""
+"Refresh\n"
+"Max"
+msgstr ""
+"Atualizar\n"
+"Máximo"
+
+#: nodes/node_power_connector.lua:28
+msgid "Digtron HV Power Connector"
+msgstr "Conector de Energia de Alta Voltagem Digtron"
+
+#: nodes/node_power_connector.lua:71
+msgid "Digtron Power @1/@2"
+msgstr "Energia do Digtron @1/@2"
+
+#: nodes/node_storage.lua:13 nodes/node_storage.lua:203
+msgid "Inventory items"
+msgstr "Itens de inventário"
+
+#: nodes/node_storage.lua:28
+msgid "Digtron Inventory Storage"
+msgstr "Armazenamento de Inventário Digtron"
+
+#: nodes/node_storage.lua:100 nodes/node_storage.lua:205
+msgid "Fuel items"
+msgstr "Itens de combustível"
+
+#: nodes/node_storage.lua:115
+msgid "Digtron Fuel Storage"
+msgstr "Armazenamento de Combustível Digtron"
+
+#: nodes/node_storage.lua:221
+msgid "Digtron Combined Storage"
+msgstr "Armazenamento Combinado Digtron"
+
+#: nodes/recipes.lua:7
+msgid "Digtron Core"
+msgstr "Núcleo do Digtron"
